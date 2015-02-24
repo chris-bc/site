@@ -77,8 +77,40 @@ Mere minutes after our agreed turnaround time we made it to the top of the range
 <figure>
 	<img src="/images/2015-tramping/tramping9.jpg">
 	<figcaption>A happy - and gorgeous - couple atop Routeburn</figcaption>
-<figure>
+</figure>
 
-By the time we returned to the car we were both **very** tired (again), and thankful that the next two days were scheduled to be very decadent, with an overnight cruise on Doubtful Sound being the only item on the agenda for tomorrow.
+By the time we returned to the car we were both *very* tired (again), and thankful that the next two days were scheduled to be very decadent, with an overnight cruise on Doubtful Sound being the only item on the agenda for tomorrow.
 
 ## Tongariro Northern Circuit
+The penultimate destination for our trip - prior to a couple of days climbing at Whanganui Bay - was a flight into Auckland and quite a long drive down to Tongariro National Park.
+
+<figure>
+	<img src="/images/2015-tramping/tramping4.jpg">
+</figure>
+
+The Northern Circuit is a loop stretching a little over 60km, normally done in four days and including the Tongariro Crossing, a popular day walk passing *"Mt. Doom"* (Mt. Ngauruhoe in real life) and some astonishing-coloured volcanic lakes (no photos of those because it was raining when we passed them).
+
+The landscape through the crossing was very alien and barren, and the very steep Mt. Ngauruhoe nothing but a deep pile of very loose shale and various-sized rocks.
+
+<figure>
+	<img src="/images/2015-tramping/tramping5.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping6.jpg">
+</figure>
+
+Heavy cloud cover rolled in on our way up Ngauruhoe and settled in for the day - We were soon facing strong alpine winds, rain and extremely low visibility - And so the only subsequent photos we got of or from Ngauruhoe were from the other side of the mountain at the end of the circuit.
+
+<figure>
+	<img src="/images/2015-tramping/tramping7.jpg">
+</figure>
+
+<figure>
+	<img src="/images/2015-tramping/tramping2.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping1.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping3.jpg">
+</figure>
