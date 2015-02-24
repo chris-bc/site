@@ -36,3 +36,49 @@ I thought walking 45km with packs, including crossing a mountain pass, seemed li
 
 The next day started and we were still enthusiastic, so off we set. The next three photos are from the walk up Luxmore Pass, unfortunately the camera didn't come out for the remainder of the trip. But we did it, almost crawling back to the car at 9.30 that night.
 
+<figure>
+	<img src="/images/2015-tramping/tramping15.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping14.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping13.jpg">
+</figure>
+
+After hobbling back to the car we started driving toward Milford Sound and a campsite nearer the start of the Routeburn Track, both feeling like we'd awake too exhausted to attempt the Routeburn the next morning, but neither willing to admit it.
+
+## Routeburn Track
+
+We awoke feeling surprisingly well and so, after a big breakfast and several coffees, made our way to the start of the Routeburn Track. Routeburn is a 30km end-to-end walk, so we were hoping to walk in from the Western (Fiordland) end to about the halfway point and then turn around, returning to the car that evening.
+
+The walk started very steeply, rising high above the surrounding landscape but remaining a little below the tree line until shortly before our turnaround point.
+
+<figure>
+	<img src="/images/2015-tramping/tramping8.jpg">
+</figure>
+
+With legs more tired than usual, we decided to stop for morning tea at a slightly wide and only *slightly* muddy section of track. Less than two minutes after we started walking again we came upon a large, open rocky area where dozens of people had stopped to rest and take in the scenery.
+
+<figure>
+	<img src="/images/2015-tramping/tramping12.jpg">
+</figure>
+
+We stopped for lunch at the second hut on the track, checking the weather forecast and deciding on a plan while we were there. The main range of Routeburn lay just ahead of us, so we agreed to continue walking for about an hour in the hope that we'd approach the top of the Burn and be rewarded with sweeping views of the surrounding ranges.
+
+Mere minutes after our agreed turnaround time we made it to the top of the range - Which, it turned out, was more or less the exact halfway point of the track.
+
+<figure>
+	<img src="/images/2015-tramping/tramping11.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping10.jpg">
+</figure>
+<figure>
+	<img src="/images/2015-tramping/tramping9.jpg">
+	<figcaption>A happy - and gorgeous - couple atop Routeburn</figcaption>
+<figure>
+
+By the time we returned to the car we were both **very** tired (again), and thankful that the next two days were scheduled to be very decadent, with an overnight cruise on Doubtful Sound being the only item on the agenda for tomorrow.
+
+## Tongariro Northern Circuit
