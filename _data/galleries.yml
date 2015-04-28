@@ -1,0 +1,44 @@
+- id: gilli-diving
+  description: Diving on Gilli Air
+  imagefolder: /images/2015-gilli
+  images:
+  - name: gilli1.jpg
+    thumb: gilli1.jpg
+    text: Description 1
+  - name: gilli2.jpg
+    thumb: gilli2.jpg
+    text: Description 2
+  - name: gilli3.jpg
+    thumb: gilli3.jpg
+    text: Description 3
+  - name: gilli4.jpg
+    thumb: gilli4.jpg
+    text: Description 4
+  - name: gilli5.jpg
+    thumb: gilli5.jpg
+    text: Description 5
+  - name: gilli6.jpg
+    thumb: gilli6.jpg
+    text: Description 6
+  - name: gilli7.jpg
+    thumb: gilli7.jpg
+    text: Description 7
+  - name: gilli8.jpg
+    thumb: gilli8.jpg
+    text: desc 8
+  - name: gilli9.jpg
+    thumb: gilli9.jpg
+    text: desc 9
+  - name: gilli10.jpg
+    thumb: gilli10.jpg
+    text: desc 10
+  - name: gilli11.jpg
+    thumb: gilli11.jpg
+    text: desc 11
+  - name: gilli12.jpg
+    thumb: gilli12.jpg
+    text: desc 12
+  - name: gilli13.jpg
+    thumb: gilli13.jpg
+    text: desc 13
+
