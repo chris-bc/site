@@ -1,0 +1,13 @@
+.list-gallery {
+	line-height: 0;
+}
+
+	.list-gallery img {
+		padding: 3px !important;
+		margin: 1px 1px 0 0;
+	}
+	
+	.list-gallery img:hover {
+		border: #009999 solid 3px !important;
+		padding: 0px !important;
+	}

@@ -1,5 +1,5 @@
 ---
 layout: gallery
-title: "Diving on the Gilli Islands"
+title: ""
 galleryid: gilli-diving
 ---

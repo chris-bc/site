@@ -2,26 +2,17 @@
 layout: page
 ---
 
-<script src="/assets/js/lightbox/jquery-1.11.0.min.js"></script>
-<script src="/assets/js/lightbox/lightbox.min.js"></script>
-<link href="/assets/css/lightbox.css" rel="stylesheet" />
-
-<p> default header for all gallery pages </p>
+<link href="/assets/css/extra.css" rel="stylesheet" />
 
 {% for gallery in site.data.galleries %}
 	{% if gallery.id == page.galleryid %}
 		<h1>{{ gallery.description }}</h1>
-		<ol>
+		<div class="list-gallery">
 		{% for image in gallery.images %}
-			<li>
-				{{ image.text }}<br>
-				<a href="{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
-					<img src="{{ gallery.imagefolder }}/{{ image.thumb }}">
+				<a href="{{ gallery.imagefolder }}/{{ image.name }}" itemprop="url" title="{{ image.text }}">
+					<img alt="{{ image.text }}" title="{{ image.text }}" width="100" src="{{ gallery.imagefolder }}/{{ image.thumb }}" />
 				</a>
-			</li>
 		{% endfor %}
-		</ol>
+		</div>
 	{% endif %}
 {% endfor %}
-
-<p> Default footer for all gallery pages </p>
