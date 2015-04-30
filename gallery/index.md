@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: "Galleries"
 date: 
 modified:
 excerpt:
