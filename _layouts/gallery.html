@@ -10,7 +10,7 @@ layout: page
 		<div class="list-gallery">
 		{% for image in gallery.images %}
 				<a href="{{ gallery.imagefolder }}/{{ image.name }}" itemprop="url" title="{{ image.text }}">
-					<img alt="{{ image.text }}" title="{{ image.text }}" width="100" src="{{ gallery.imagefolder }}/{{ image.thumb }}" />
+					<img alt="{{ image.text }}" title="{{ image.text }}" src="{{ gallery.imagefolder }}/{{ image.thumb }}" />
 				</a>
 		{% endfor %}
 		</div>

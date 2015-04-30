@@ -13,7 +13,7 @@ image:
 {% for gallery in site.data.galleries %}
 	<div class="gallery-thumb">
 		<a href="{{ gallery.id }}.html">
-			<img alt="{{ gallery.description }}" title="{{ gallery.description }}" width="150" src="{{ gallery.imagefolder }}/{{ gallery.images[0].thumb }}" />
+			<img alt="{{ gallery.description }}" title="{{ gallery.description }}" src="{{ gallery.imagefolder }}/{{ gallery.images[0].thumb }}" />
 			<p>{{ gallery.description }}</p>
 		</a>
 	</div>

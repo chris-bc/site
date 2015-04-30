@@ -1,6 +1,7 @@
 %gallery img {
 	padding: 3px !important;
 	margin: 1px 1px 0 0;
+	height: 150px;
 }
 
 %gallery img:hover {
@@ -19,4 +20,5 @@
 	display:block;
 	margin: 3px;
 	float: left;
+	vertical-align: middle;
 }
