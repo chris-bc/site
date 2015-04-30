@@ -1,0 +1,22 @@
+%gallery img {
+	padding: 3px !important;
+	margin: 1px 1px 0 0;
+}
+
+%gallery img:hover {
+	border: #009999 solid 3px !important;
+	padding: 0px !important;
+}
+
+.list-gallery {
+	@extend %gallery;
+	line-height: 0;
+}
+
+.gallery-thumb {
+	@extend %gallery;
+	text-align:center;
+	display:block;
+	margin: 3px;
+	float: left;
+}
