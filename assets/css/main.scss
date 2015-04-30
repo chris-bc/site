@@ -26,3 +26,24 @@ sitemap: false
 @import "vendor/font-awesome/font-awesome";
 @import "vendor/magnific-popup/magnific-popup";
 //@import "vendor/google/fonts";
+
+.gallery-thumb {
+	text-align:center;
+	display:block;
+	margin: 3px;
+	float: left;
+	vertical-align: center;
+}
+
+	.gallery-thumb img {
+		padding: 3px !important;
+		margin: 1px 1px 0 0;
+	}
+	
+	.gallery-thumb img:hover {
+		border: #009999 solid 3px !important;
+		padding: 0px !important;
+	}
+
+
+@import "extra.css"

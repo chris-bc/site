@@ -9,9 +9,13 @@ image:
   feature:
 ---
 
-{% for gallery in site.data.galleries %}<div>
-	<a href="{{ gallery.id }}.html">
-		<img alt="{{ gallery.description }}" title="{{ gallery.description }}" width="150" src="{{ gallery.imagefolder }}/{{ gallery.images[0].thumb }}" />
-<br/>		{{ gallery.description }}
-	</a></div>
+<div style="overflow: auto;">
+{% for gallery in site.data.galleries %}
+	<div class="gallery-thumb">
+		<a href="{{ gallery.id }}.html">
+			<img alt="{{ gallery.description }}" title="{{ gallery.description }}" width="150" src="{{ gallery.imagefolder }}/{{ gallery.images[0].thumb }}" />
+			<p>{{ gallery.description }}</p>
+		</a>
+	</div>
 {% endfor %}
+</div>
