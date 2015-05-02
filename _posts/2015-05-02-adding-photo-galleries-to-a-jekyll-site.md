@@ -4,7 +4,7 @@ title: "Adding Photo Galleries to a Jekyll Site"
 modified:
 categories: posts
 excerpt:
-tags: [development, web, hml, css, javascript]
+tags: [development, web, html, css, javascript]
 image:
   feature: gallery-title.jpg
 date: 2015-05-02T07:11:24+10:00
