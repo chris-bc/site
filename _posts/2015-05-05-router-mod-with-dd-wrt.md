@@ -36,7 +36,7 @@ In any event, in my case my current router is about four years old, was cheap at
 I spent some time Googling, comparing and reading reviews and ended up with the [Netgear R7000 Nighthawk](http://www.netgear.com.au/home/products/networking/wifi-routers/R7000.aspx?gclid=CN2VlNvCsMUCFdcjvQoduXAATA).
 
 <figure>
-	<img alt="Netgear R7000 Nighthawk" src="/images/2015-ddwrt/nighthawk.jpg">
+	<img class="centered-image" alt="Netgear R7000 Nighthawk" src="/images/2015-ddwrt/nighthawk.jpg">
 	<figcaption>Netgear R7000 Nighthawk. Almost like a batmobile</figcaption>
 </figure>
 
@@ -68,20 +68,26 @@ Connect your computer to your router with an ethernet cable and, if it's not a b
 
 Log into your router's management page, find the page to upload a new firmware version, and upload the DD-WRT initial firmware. Continue through any warnings you get and wait for the process to complete in full. Do what's necessary for a factory reset to clear NVRAM, for the NightHawk this is easy - Just go to its management page (you'll need to set an initial username and password first), then:
 <figure>
-	<img alt="Administration-Factory-defaults" src="/images/2015-ddwrt/factory-restore.jpg">
+	<img class="centered-image" alt="Administration-Factory-defaults" src="/images/2015-ddwrt/factory-restore.jpg">
 	<figcaption>Administration section, Factory Restore tab</figcaption>
 </figure>
 
 This will result in a reboot and you'll need to again set an initial username and password. Configure the router as you need to, but here are some tidbits
 
 ### WiFi settings
-It seems like setting an upper-upper extension channel makes a considerable difference:
+It seems like setting an upper-upper extension channel makes a considerable difference - I have't yet had time to trial different combinations of settings, but this is what I'm currently using.
 
+<figure>
+	<img class="centered-image" alt="Wireless settings" src="/images/2015-ddwrt/wireless-settings.jpg">
+	<figcaption>Current wireless settings for my 5GHz interface</figcaption>
+</figure>
 
 ### Testing performance
 On a Mac, you can get some useful information on your network connection by option-clicking on the wireless icon in the menu bar:
 
 <figure>
-	<img alt="Detailed wireless connection info" src="/images/2015-ddwrt/connectioninfo.jpg">
+	<img class="centered-image" alt="Detailed wireless connection info" src="/images/2015-ddwrt/wireless-status.jpg">
 	<figcaption>Detailed network connection information is available on a Mac by option-clicking the wireless icon</figcaption>
 </figure>
+
+As you can see, the current connection speed is nearly 900MB/s, so I'm not too worries about testing different combinations of settings at the moment.
