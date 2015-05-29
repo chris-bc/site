@@ -15,7 +15,7 @@ date: 2015-05-05T11:16:20+10:00
 ### Why bother?
 The answer used to be *"because you can"*. When Linksys first published the source code for their firmware it took the world by storm.
 
-OK, OK. Let me rephrase. It took the Linux-using, free software-loving portion of the software development community by storm. But, you know, that's still pretty significant.
+OK, let me rephrase. It took the Linux-using, free software-loving portion of the software development community by storm. But, you know, that's still pretty significant.
 
 At the time it was little more than an enforced release because they were using some GPL'd libraries (and my half-hearted attempts to even get it to compile were fruitless).  But over time cleverer people and cross compilers put together [DD-WRT](http://www.dd-wrt.com) and [OpenWRT](https://openwrt.org) custom firmware releases. Over time they developed and diverged, and were joined by a lot of other options. 
 
@@ -57,7 +57,7 @@ And of course, the ROMS:
 * [NightHawk Only - http://www.desipro.de/ddwrt-ren/K3-AC-Arm/](http://www.desipro.de/ddwrt-ren/K3-AC-Arm/)
 * [NightHawk Only - http://desipro.de/ddwrt/K3-AC-Arm/](http://desipro.de/ddwrt/K3-AC-Arm/)
 
-Which ROM to install isn't so straightforward if you're using a NightHawk and nobody seems willing to give advice. If that's not you, just download whatever the supported routers database tells you to. The detailed forum post says the last build with working bridge mode was 26125, but that is **very** old, and it also lists several problems fixed in February and March 2015. So what the hey, maybe the very latest build is the best idea?
+Which ROM to install isn't so straightforward if you're using a NightHawk and nobody seems willing to give advice. If you're not using a NightHawk, just download whatever the supported routers database tells you to. The detailed forum post says the last build with working bridge mode was 26125, but that is **very** old, and it also lists several problems fixed in February and March 2015. So what the hey, maybe the very latest build is the best idea?
 
 For me that's 2015-05-19, so down it comes. As does the latest stock firmware from NetGear, just in case it all goes wrong I want to have that handy.
 
@@ -90,4 +90,4 @@ On a Mac, you can get some useful information on your network connection by opti
 	<figcaption>Detailed network connection information is available on a Mac by option-clicking the wireless icon</figcaption>
 </figure>
 
-As you can see, the current connection speed is nearly 900MB/s, so I'm not too worries about testing different combinations of settings at the moment.
+As you can see, the current connection speed is nearly 900MB/s, so I'm not too worried about testing different combinations of settings at the moment.
