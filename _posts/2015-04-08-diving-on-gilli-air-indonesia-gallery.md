@@ -3,7 +3,7 @@ layout: post
 title: "Diving on Gilli Air, Indonesia (Gallery)"
 modified:
 categories: posts
-excerpt:
+excerpt: Eight days on a tropical island SCUBA diving and drinking Bintang
 tags: [travel, diving, photography, gallery]
 image:
   feature:

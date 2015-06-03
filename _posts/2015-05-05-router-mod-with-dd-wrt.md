@@ -3,7 +3,7 @@ layout: post
 title: "Router Mod With DD-WRT"
 modified:
 categories: posts
-excerpt:
+excerpt: An overview of installing and configuring the DD-WRT open source router firmware.
 tags: [Development, Infrastructure, VPN]
 image:
   feature:

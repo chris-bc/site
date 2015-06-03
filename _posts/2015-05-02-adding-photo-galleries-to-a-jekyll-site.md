@@ -3,7 +3,7 @@ layout: post
 title: "Adding Photo Galleries to a Jekyll Site"
 modified:
 categories: posts
-excerpt:
+excerpt: A short guide on adding a sexy (if I say so myself) photo gallery to a Jekyll site (this one)
 tags: [development, web, html, css, javascript]
 image:
   feature: gallery-title.jpg

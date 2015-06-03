@@ -3,7 +3,7 @@ layout: post
 title: "The New Android Emulator You Have to Try"
 modified:
 categories: posts
-excerpt:
+excerpt: Sick of the painful performance and bugginess of the stock Android emulator? Complain no more!
 tags: [development, android, mobile]
 image:
   feature: 2015-genymotion/genymotion-title.jpg

@@ -3,7 +3,7 @@ layout: post
 title: "Climbing Point Perpendicular (Gallery)"
 modified:
 categories: posts
-excerpt:
+excerpt: A sneaky short climbing trip with my sisters - And Brittany's first experience trad climbing
 tags: [climbing, photography, lightroom]
 image:
   feature:
