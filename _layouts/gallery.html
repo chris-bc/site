@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+<link href="/assets/css/extra.css" rel="stylesheet" />
+
+{% for gallery in site.data.galleries %}
+	{% if gallery.id == page.galleryid %}
+		<h1>{{ gallery.description }}</h1>
+		<div class="list-gallery">
+		{% for image in gallery.images %}
+				<a href="{{ gallery.imagefolder }}/{{ image.name }}" itemprop="url" title="{{ image.text }}">
+					<img alt="{{ image.text }}" title="{{ image.text }}" src="{{ gallery.imagefolder }}/{{ image.thumb }}" />
+				</a>
+		{% endfor %}
+		</div>
+	{% endif %}
+{% endfor %}

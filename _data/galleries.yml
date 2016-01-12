@@ -1,0 +1,146 @@
+- id: gilli-diving
+  description: Diving on Gilli Air
+  imagefolder: /images/2015-gilli
+  images:
+  - name: gilli-1.jpg
+    thumb: thumb-1.jpg
+    text: Description 1
+  - name: gilli-2.jpg
+    thumb: thumb-2.jpg
+    text: Description 2
+  - name: gilli-3.jpg
+    thumb: thumb-3.jpg
+    text: Description 3
+  - name: gilli-4.jpg
+    thumb: thumb-4.jpg
+    text: Description 4
+  - name: gilli-5.jpg
+    thumb: thumb-5.jpg
+    text: Description 5
+  - name: gilli-6.jpg
+    thumb: thumb-6.jpg
+    text: Description 6
+  - name: gilli-7.jpg
+    thumb: thumb-7.jpg
+    text: Description 7
+  - name: gilli-8.jpg
+    thumb: thumb-8.jpg
+    text: desc 8
+  - name: gilli-9.jpg
+    thumb: thumb-9.jpg
+    text: desc 9
+  - name: gilli-10.jpg
+    thumb: thumb-10.jpg
+    text: desc 10
+  - name: gilli-11.jpg
+    thumb: thumb-11.jpg
+    text: desc 11
+  - name: gilli-12.jpg
+    thumb: thumb-12.jpg
+    text: desc 12
+  - name: gilli-13.jpg
+    thumb: thumb-13.jpg
+    text: desc 13
+  - name: gilli-14.jpg
+    thumb: thumb-14.jpg
+    text: 14
+  - name: gilli-15.jpg
+    thumb: thumb-15.jpg
+    text: 15
+  - name: gilli-16.jpg
+    thumb: thumb-16.jpg
+    text: 16
+  - name: gilli-17.jpg
+    thumb: thumb-17.jpg
+    text: 17
+  - name: gilli-18.jpg
+    thumb: thumb-18.jpg
+    text: 18
+  - name: gilli-19.jpg
+    thumb: thumb-19.jpg
+    text: 19
+  - name: gilli-20.jpg
+    thumb: thumb-20.jpg
+    text: 20
+  - name: gilli-21.jpg
+    thumb: thumb-21.jpg
+    text: 21
+  - name: gilli-22.jpg
+    thumb: thumb-22.jpg
+    text: 22
+  - name: gilli-23.jpg
+    thumb: thumb-23.jpg
+    text: 23
+  - name: gilli-24.jpg
+    thumb: thumb-24.jpg
+    text: 24
+  - name: gilli-25.jpg
+    thumb: thumb-25.jpg
+    text: 25
+  - name: gilli-26.jpg
+    thumb: thumb-26.jpg
+    text: 26
+  - name: gilli-27.jpg
+    thumb: thumb-27.jpg
+    text: 27
+  - name: gilli-28.jpg
+    thumb: thumb-28.jpg
+    text: 28
+  - name: gilli-29.jpg
+    thumb: thumb-29.jpg
+    text: 29
+  - name: gilli-30.jpg
+    thumb: thumb-30.jpg
+    text: 30
+  - name: gilli-31.jpg
+    thumb: thumb-31.jpg
+    text: 31
+  - name: gilli-32.jpg
+    thumb: thumb-32.jpg
+    text: 32
+  - name: gilli-33.jpg
+    thumb: thumb-33.jpg
+    text: 33
+  - name: gilli-34.jpg
+    thumb: thumb-34.jpg
+    text: 34
+  - name: gilli-35.jpg
+    thumb: thumb-35.jpg
+    text: 35
+  - name: gilli-36.jpg
+    thumb: thumb-36.jpg
+    text: 36
+  - name: gilli-37.jpg
+    thumb: thumb-37.jpg
+    text: 37
+  - name: gilli-38.jpg
+    thumb: thumb-38.jpg
+    text: 38
+  - name: gilli-39.jpg
+    thumb: thumb-39.jpg
+    text: 39
+  - name: gilli-40.jpg
+    thumb: thumb-40.jpg
+    text: 40
+  - name: gilli-41.jpg
+    thumb: thumb-41.jpg
+    text: 41
+- id: perp-anzac
+  description: Point Perp
+  imagefolder: /images/2015-perp
+  images:
+  - name: perp-1.jpg
+    thumb: thumb-1.jpg
+    text: Description 1
+  - name: perp-2.jpg
+    thumb: thumb-2.jpg
+    text: Description 1
+  - name: perp-3.jpg
+    thumb: thumb-3.jpg
+    text: Description 1
+  - name: perp-4.jpg
+    thumb: thumb-4.jpg
+    text: Description 1
+  - name: perp-5.jpg
+    thumb: thumb-5.jpg
+    text: Description 1
