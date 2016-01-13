@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/posts/new-digital-stereo-source/</loc>
+    <lastmod>2015-11-01T12:16:20+11:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>/posts/router-mod-with-dd-wrt/</loc>
+    <lastmod>2015-05-05T11:16:20+10:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>/posts/the-new-android-emulator-you-have-to-try/</loc>
+    <lastmod>2015-05-03T05:49:13+10:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>/posts/adding-photo-galleries-to-a-jekyll-site/</loc>
+    <lastmod>2015-05-02T07:11:24+10:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>/posts/diving-on-gilli-air-indonesia-gallery/</loc>
+    <lastmod>2015-04-30T09:41:18+10:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>/posts/climbing-point-perpendicular-gallery/</loc>
+    <lastmod>2015-04-25T06:54:52+10:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>/posts/summer-2014-tramping-nz/</loc>
     <lastmod>2015-01-28T06:21:33+11:00</lastmod>
     <priority>0.8</priority>
@@ -36,26 +66,38 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>/gallery/gilli-diving.html</loc>
+    <lastmod>2016-01-13T11:51:24+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>/</loc>
-    <lastmod>2015-02-24T16:59:27+11:00</lastmod>
+    <lastmod>2016-01-13T11:51:24+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/theme-setup/</loc>
-    <lastmod>2015-02-24T16:59:27+11:00</lastmod>
+    <lastmod>2016-01-13T11:51:24+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>/posts/</loc>
-    <lastmod>2015-02-24T16:59:27+11:00</lastmod>
+    <lastmod>2016-01-13T11:51:24+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>/about/</loc>
-    <lastmod>2015-02-24T16:59:27+11:00</lastmod>
+    <loc>/gallery/</loc>
+    <lastmod>2016-01-13T11:51:24+11:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>/gallery/perp-anzac.html</loc>
+    <lastmod>2016-01-13T11:51:24+11:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
