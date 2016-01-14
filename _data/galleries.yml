@@ -144,3 +144,69 @@
   - name: perp-5.jpg
     thumb: thumb-5.jpg
     text: Description 1
+- id: mueller-2015
+  description: Mueller Hut
+  imagefolder: /images/2015-mueller
+  images:
+  - name: mueller-1.jpg
+    thumb: thumb-1.jpg
+    text: Description 1
+  - name: mueller-2.jpg
+    thumb: thumb-2.jpg
+    text: description 2
+  - name: mueller-3.jpg
+    thumb: thumb-3.jpg
+    text: desc 3
+  - name: mueller-4.jpg
+    thumb: thumb-4.jpg
+    text: desc 4
+  - name: mueller-5.jpg
+    thumb: thumb-5.jpg
+    text: desc 5
+- id: matukituki-2015
+  description: Matukituki Valley
+  imagefolder: /images/2015-matukituki
+  images:
+  - name: matukituki-1.jpg
+    thumb: thumb-1.jpg
+    text: text1
+  - name: matukituki-2.jpg
+    thumb: thumb-2.jpg
+    text: two
+  - name: matukituki-3.jpg
+    thumb: thumb-3.jpg
+    text: three
+  - name: matukituki-4.jpg
+    thumb: thumb-4.jpg
+    text: four
+  - name: matukituki-5.jpg
+    thumb: thumb-5.jpg
+    text: five
+  - name: matukituki-6.jpg
+    thumb: thumb-6.jpg
+    text: six
+  - name: matukituki-7.jpg
+    thumb: thumb-7.jpg
+    text: seven
+  - name: matukituki-8.jpg
+    thumb: thumb-8.jpg
+    text: eight
+  - name: matukituki-9.jpg
+    thumb: thumb-9.jpg
+    text: nine
+  - name: matukituki-10.jpg
+    thumb: thumb-10.jpg
+    text: ten
+  - name: matukituki-11.jpg
+    thumb: thumb-11.jpg
+    text: eleven
+  - name: matukituki-12.jpg
+    thumb: thumb-12.jpg
+    text: twelve
+  - name: matukituki-13.jpg
+    thumb: thumb-13.jpg
+    text: thirteen
+  - name: matukituki-14.jpg
+    thumb: thumb-14.jpg
+    text: fourteen
+    
