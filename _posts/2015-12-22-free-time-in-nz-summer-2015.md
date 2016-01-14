@@ -6,7 +6,7 @@ categories: posts
 excerpt: After returning from the mountains a week ahead of schedule we had a week and a half of time to fill...
 tags: [climbing, alpinism, rock, wine, nz]
 image:
-  feature: 
+  feature: 2015-mueller/unwin.jpg
 date: 2015-12-22T11:16:20+10:00
 ---
 > When we last met we were taking a helicopter out of Plateau Hut, returning to Unwin Lodge about a week ahead of schedule.
