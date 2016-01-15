@@ -150,63 +150,63 @@
   images:
   - name: mueller-1.jpg
     thumb: thumb-1.jpg
-    text: Description 1
+    text: The Hooker Valley and Aoraki/Mt. Cook towering above the clouds
   - name: mueller-2.jpg
     thumb: thumb-2.jpg
-    text: description 2
+    text: Looking gorgeous
   - name: mueller-3.jpg
     thumb: thumb-3.jpg
-    text: desc 3
+    text: Mountain sandles collecting snow the last bit of the track to Mueller Hut
   - name: mueller-4.jpg
     thumb: thumb-4.jpg
-    text: desc 4
+    text: An artistic photo of Wendy
   - name: mueller-5.jpg
     thumb: thumb-5.jpg
-    text: desc 5
+    text: Descending back to the Hooker
 - id: matukituki-2015
   description: Matukituki Valley
   imagefolder: /images/2015-matukituki
   images:
   - name: matukituki-1.jpg
     thumb: thumb-1.jpg
-    text: text1
+    text: An excellent couple of couples
   - name: matukituki-2.jpg
     thumb: thumb-2.jpg
-    text: two
+    text: Aspiring Hut with Aspiring and Shipowner Ridge in the distance
   - name: matukituki-3.jpg
     thumb: thumb-3.jpg
-    text: three
+    text: Glacial rivers
   - name: matukituki-4.jpg
     thumb: thumb-4.jpg
-    text: four
+    text: Still happy
   - name: matukituki-5.jpg
     thumb: thumb-5.jpg
-    text: five
+    text: Bridge to Rob Roy
   - name: matukituki-6.jpg
     thumb: thumb-6.jpg
-    text: six
+    text: Cold water
   - name: matukituki-7.jpg
     thumb: thumb-7.jpg
-    text: seven
+    text: What is glacier and what is cloud?
   - name: matukituki-8.jpg
     thumb: thumb-8.jpg
-    text: eight
+    text: Rob Roy Glacier
   - name: matukituki-9.jpg
     thumb: thumb-9.jpg
-    text: nine
+    text: Big Rock
   - name: matukituki-10.jpg
     thumb: thumb-10.jpg
-    text: ten
+    text: Walking the Matukituki
   - name: matukituki-11.jpg
     thumb: thumb-11.jpg
-    text: eleven
+    text: Still walking the Matukituki
   - name: matukituki-12.jpg
     thumb: thumb-12.jpg
-    text: twelve
+    text: More cold water
   - name: matukituki-13.jpg
     thumb: thumb-13.jpg
-    text: thirteen
+    text: Lots of suspension bridges
   - name: matukituki-14.jpg
     thumb: thumb-14.jpg
-    text: fourteen
+    text: Stunning glacial river
     
