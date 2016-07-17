@@ -40,9 +40,11 @@ svg:not(:root) {
 	@media #{$micro} {
 		img {
 			@include grid(12,6);
+			padding: 3px;
 		}
 		figcaption {
 			@include grid(12,12);
+			text-align: center;
 		}
 	}
 }
@@ -55,9 +57,11 @@ svg:not(:root) {
 	@media #{$micro} {
 		img {
 			@include grid(12,4);
+			padding: 3px;
 		}
 		figcaption {
 			@include grid(12,12);
+			text-align: center;
 		}
 	}
 }
