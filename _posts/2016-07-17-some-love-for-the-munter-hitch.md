@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Some Love for the Munter Hitch"
+title: "For the Love of the Munter Hitch"
 modified:
 categories: posts
 excerpt: A reminder and guide for anyone who plays or works on rope about the fabulous Münter Hitch
@@ -12,8 +12,8 @@ date: 2016-07-17T20:15:57+10:00
 >
 > It's a clear Spring afternoon. Warmer than you expected, especially after the terrifying move you just pulled off. But you managed to stick it, and with clammy hands that are a little bit shaky you reach the top of pitch 4, build a quick anchor and shout *"In hard!"*.
 >
-> Leaving the rope until your second is ready you reach around, take your ATC off your harness, and
-> *Ding ... ding ... ding ding ...*
+> Leaving the rope until your second is ready you reach around, take your ATC off your harness, and<br />
+> **Ding ... ding ... ding ding ...**<br />
 > *"Below"* You shout, immediately followed by *"Shit!"*.
 >
 
@@ -27,7 +27,7 @@ date: 2016-07-17T20:15:57+10:00
 
 <br />
 This fabulous little hitch can be used to belay a climber, as a progress capture in a haul system, to abseil, to lower a load (think rescue or recovery), on single or double rope, and can be comfortably used to hold a load up to about 150kg. It inverts on the carabiner, so you can use either strand as the load (or haul) strand and it automatically adjusts. The down side is that it twists the rope, so it's not time to just toss your ATC in the bin I'm afraid.
-All you need to be able to use it is a carabiner - preferably a HMS shape. This actually stands for *HalbMastwurf Sicherung*, which means 'Münter Hitch belay' in Ferman. HMS carabiners exist specifically to be used with Münter hitches. Another fun fact, the German word *HalbMastwurf* above means 'half clove hitch', and that's exactly what the Münter hitch is - A clove hitch cut in half lengthways.
+All you need to be able to use it is a carabiner - preferably a HMS shape. This actually stands for *HalbMastwurf Sicherung*, which means 'Münter Hitch belay' in German. HMS carabiners exist specifically to be used with Münter hitches. Another fun fact, the German word *HalbMastwurf* above means 'half clove hitch', and that's exactly what the Münter hitch is - A clove hitch cut in half lengthways.
 
 <figure class="half">
 	<a href="/images/2016-munter/munter-3.jpg"><img src="/images/2016-munter/munter-3-thumb.jpg" /></a>
