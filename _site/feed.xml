@@ -2,28 +2,123 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">BENNETTSCASH</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2016-07-18T09:03:14+10:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2020-03-29T09:28:55+11:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Chris Bennetts-Cash</name>
-  <uri>/</uri>
+  <uri>http://localhost:4000/</uri>
   <email>chris@bennettscash.id.au</email>
 </author>
 
 
-  
+<entry>
+  <title type="html"><![CDATA[Load Testing the Euro Death Knot (flat overhand)]]></title>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/load-testing-the-euro-death-knot/" />
+  <id>http://localhost:4000/posts/load-testing-the-euro-death-knot</id>
+  <published>2020-03-28T18:15:57+11:00</published>
+  <updated>2020-03-28T18:15:57+11:00</updated>
+  <author>
+    <name>Chris Bennetts-Cash</name>
+    <uri>http://localhost:4000</uri>
+    <email>chris@bennettscash.id.au</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;As climbers, we all know that the flat overhand knot, or Euro Death Knot (EDK), is preferred over the double fisherman’s bend when joining ropes for a long rappel because its flat profile makes it much less likely to get snagged when pulling the rope. We also know that we should make sure to have 30 - 50cm of tail in the knot because it slips under tension, and we don’t want it to come undone.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Right?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you ever seen any data to back that up?
+I haven’t, and after discussing this recently I thought it would be interesting to perform some pull tests to see how this stacks up.&lt;/p&gt;
+
+&lt;p&gt;Before going any further I should be very clear that this is &lt;strong&gt;not conclusive&lt;/strong&gt;. This was two tests of two scenarios, performed &lt;em&gt;once&lt;/em&gt;. It’s impossible to draw conclusions from this of all ropes, and knots tied, dressed and set in all different ways. Personally, I will still be using 30-50cm tails when I rap on an EDK, but I’ll be much less concerned about the length of the tails.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup&quot;&gt;Setup&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Loads were measured using a Rock Exotica enForcer load cell, running at two samples per second;&lt;/li&gt;
+  &lt;li&gt;One end of the load cell was attached to an anchor constructed of 4 strands of 25mm tube tape;&lt;/li&gt;
+  &lt;li&gt;The other end of the load cell was attached to one of the ropes being tested using a bowline;&lt;/li&gt;
+  &lt;li&gt;The second rope being tested was attached to an 8:1 mechanical advantage system (a compound system of three 2:1 systems), again using a bowline;&lt;/li&gt;
+  &lt;li&gt;Maximum load was applied for at least 10 seconds.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;/images/2020-edk/test.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/test-thumb.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/haul.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/haul-thumb.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Backyard testing&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To “set” a knot is to hand-tighten it. The usual way of doing this is to hold the knot in one hand, and with the other pull each of the four strands in turn, repeating until the knot is firm and the tails no longer move.&lt;/li&gt;
+  &lt;li&gt;Bear in mind that this shows the results from &lt;strong&gt;a single test&lt;/strong&gt; of four different scenarios. It would be inappropriate and unsafe to draw conclusions from this.&lt;/li&gt;
+  &lt;li&gt;A key reason for this is that I’ve been tying knots in a particular way for 20 years. Your method of dressing and setting knots, or your rope, could have wildly different results.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;What’s “kgf”?&lt;/strong&gt; kN are a measure of force, kg are a measure of mass. &lt;em&gt;kgf&lt;/em&gt; is a common notation to represent &lt;em&gt;a force equivalent to this many kilograms&lt;/em&gt;. You can read this as kg.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr class=&quot;header&quot;&gt;
+&lt;th&gt;Rope&lt;/th&gt;&lt;th&gt;Knot&lt;br /&gt;set?&lt;/th&gt;&lt;th&gt;Tail length&lt;br /&gt;Start (cm)&lt;/th&gt;&lt;th&gt;Force&lt;/th&gt;&lt;th&gt;Tail Length&lt;br /&gt;End (cm)&lt;/th&gt;&lt;th&gt;Tail Loss (cm)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&quot;odd&quot;&gt;
+&lt;td class=&quot;left&quot;&gt;Sterling Fusion Nano 9.2mm&lt;br /&gt;Dynamic, manfd. 2012&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;12.5&lt;br /&gt;12&lt;/td&gt;&lt;td&gt;3.52kN&lt;br /&gt;(360kgf)&lt;/td&gt;&lt;td&gt;10.5&lt;br /&gt;10&lt;/td&gt;&lt;td&gt;&lt;strong&gt;2&lt;br /&gt;2&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;
+&lt;td class=&quot;left&quot;&gt;Sterling Fusion Nano 9.2mm&lt;br /&gt;Dynamic, manfd. 2012&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;&lt;td&gt;10&lt;br /&gt;7.5&lt;/td&gt;&lt;td&gt;2.78kN&lt;br /&gt;(282kgf)&lt;/td&gt;&lt;td&gt;7&lt;br /&gt;3.3&lt;/td&gt;&lt;td&gt;&lt;strong&gt;3&lt;br /&gt;4.2&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;odd&quot;&gt;&lt;td class=&quot;left&quot;&gt;Edelrid 10.5mm&lt;br /&gt;Dynamic, manfd. 2002&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;10.5&lt;br /&gt;10&lt;/td&gt;&lt;td&gt;3.04kN&lt;br /&gt;(310kgf)&lt;/td&gt;&lt;td&gt;10.5&lt;br /&gt;10&lt;/td&gt;&lt;td&gt;&lt;strong&gt;0&lt;br /&gt;0&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr class=&quot;even&quot;&gt;&lt;td class=&quot;left&quot;&gt;Edelrid 10.5mm&lt;br /&gt;Dynamic, manfd. 2002&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;8&lt;br /&gt;8&lt;/td&gt;&lt;td&gt;2.96kN&lt;br /&gt;(302kgf)&lt;/td&gt;&lt;td&gt;6.9&lt;br /&gt;6.7&lt;/td&gt;&lt;td&gt;&lt;strong&gt;1.1&lt;br /&gt;1.3&lt;/strong&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h2 id=&quot;photos&quot;&gt;Photos&lt;/h2&gt;
+&lt;figure class=&quot;half&quot; style=&quot;display: block; text-align: center; margin-bottom: 2em;&quot;&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-set-before.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-set-before-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-set-after.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-set-after-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Sterling Fusion Nano 9.2, knot dressed and set, before and after&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;third&quot; style=&quot;display: block; text-align: center; margin-bottom: 2em;&quot;&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-set-load-cell.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-set-load-cell-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-set-after-top.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-set-after-top-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-set-after-bottom.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-set-after-bottom-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;A closer look at the knot after loading&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot; style=&quot;display: block; text-align: center; margin-bottom: 2em;&quot;&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-loose-before-1.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-loose-before-1-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-loose-before-2.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-loose-before-2-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Sterling Fusion Nano 9.2, knot loose, before&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;half&quot; style=&quot;display: block; text-align: center; margin-bottom: 2em;&quot;&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-loose-load-cell.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-loose-load-cell-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/nano-loose-after.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/nano-loose-after-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Sterling Fusion Nano 9.2, knot loose, after&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;third&quot; style=&quot;display: block; text-align: center; margin-bottom: 2em;&quot;&gt;
+	&lt;a href=&quot;/images/2020-edk/eddy-loose-before-1.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/eddy-loose-before-1-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/eddy-loose-before-2.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/eddy-loose-before-2-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/2020-edk/eddy-set-load-cell.jpg&quot;&gt;&lt;img src=&quot;/images/2020-edk/eddy-set-load-cell-thumb.jpg&quot; style=&quot;float: none;&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Testing the Edelrid 10.5mm&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/load-testing-the-euro-death-knot/&quot;&gt;Load Testing the Euro Death Knot (flat overhand)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2020.&lt;/p&gt;
+  </content>
+</entry>
+
 
 <entry>
   <title type="html"><![CDATA[For the Love of the Munter Hitch]]></title>
-  <link rel="alternate" type="text/html" href="/posts/some-love-for-the-munter-hitch/" />
-  <id>/posts/some-love-for-the-munter-hitch</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/some-love-for-the-munter-hitch/" />
+  <id>http://localhost:4000/posts/some-love-for-the-munter-hitch</id>
   <published>2016-07-17T20:15:57+10:00</published>
   <updated>2016-07-17T20:15:57+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -57,12 +152,12 @@ All you need to be able to use it is a carabiner - preferably a HMS shape. This 
 
 &lt;p&gt;&lt;br /&gt;
 I’ve come across dozens of different ways to tie a Münter hitch. Most of them involve complicated sequences of forming loops and pretending you’re holding a book. Forget all that. Just take your rope and make a loop. Doesn’t matter which way around it is, just any old loop.
-Now take one of the lines coming out of the loop - again, it doesn’t matter which one - and fold it over the other length of rope and back onto itself.
+Now take one of the lines coming out of the loop - again, it doesn’t matter which one - and fold it over the other length of rope and back onto itself.&lt;/p&gt;
 &lt;figure class=&quot;third&quot;&gt;
 	&lt;a href=&quot;/images/2016-munter/munter-5.jpg&quot;&gt;&lt;img src=&quot;/images/2016-munter/munter-5-thumb.jpg&quot; /&gt;&lt;/a&gt;
 	&lt;a href=&quot;/images/2016-munter/munter-6.jpg&quot;&gt;&lt;img src=&quot;/images/2016-munter/munter-6-thumb.jpg&quot; /&gt;&lt;/a&gt;
 	&lt;a href=&quot;/images/2016-munter/munter-7.jpg&quot;&gt;&lt;img src=&quot;/images/2016-munter/munter-7-thumb.jpg&quot; /&gt;&lt;/a&gt;
-&lt;/figure&gt;&lt;/p&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;Finally, take your carabiner and attach it to whichever two sections of rope are running next to each other.&lt;/p&gt;
 &lt;figure&gt;
@@ -115,22 +210,20 @@ Hold the tail so that it forms a second loop around the loaded rope and clip the
 	&lt;figcaption&gt;Tying a Monster Münter&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/some-love-for-the-munter-hitch/&quot;&gt;For the Love of the Munter Hitch&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on July 17, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/some-love-for-the-munter-hitch/&quot;&gt;For the Love of the Munter Hitch&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on July 17, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Free Time in NZ (Summer 2015)]]></title>
-  <link rel="alternate" type="text/html" href="/posts/free-time-in-nz-summer-2015/" />
-  <id>/posts/free-time-in-nz-summer-2015</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/free-time-in-nz-summer-2015/" />
+  <id>http://localhost:4000/posts/free-time-in-nz-summer-2015</id>
   <published>2015-12-22T12:16:20+11:00</published>
   <updated>2015-12-22T12:16:20+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -209,22 +302,20 @@ We had a perfect morning for it so I donned what were to become my trusty mounta
 	&lt;figcaption&gt;Some climbers from california top roping a classic-looking 19&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/free-time-in-nz-summer-2015/&quot;&gt;Free Time in NZ (Summer 2015)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 22, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/free-time-in-nz-summer-2015/&quot;&gt;Free Time in NZ (Summer 2015)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 22, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[New Zealand Mountains Summer 2015]]></title>
-  <link rel="alternate" type="text/html" href="/posts/new-zealand-summer-2015/" />
-  <id>/posts/new-zealand-summer-2015</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/new-zealand-summer-2015/" />
+  <id>http://localhost:4000/posts/new-zealand-summer-2015</id>
   <published>2015-12-15T12:16:20+11:00</published>
   <updated>2015-12-15T12:16:20+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -243,7 +334,7 @@ We had a perfect morning for it so I donned what were to become my trusty mounta
 &lt;h3 id=&quot;monday-december-7&quot;&gt;Monday, December 7&lt;/h3&gt;
 
 &lt;p&gt;By 10am we’ve set up our home in Plateau Hut for the week and begin discussing plans for the day. While unpacking we bump into &lt;a href=&quot;http://www.justonestep.eu&quot;&gt;Gabriel&lt;/a&gt;, who Brittany and I were stuck in Colin Todd Hut with for a few days the previous Summer, and we discuss plans with him. He gives us beta on Mt. Dixon (don’t bother, it’s a choice between large, broken bergschrund and overhead cerac that could rain down blocks of ice at any moment).
-The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy to practice self arrest and then continue for a walk around the Grand Plateau to investigate the approach to Mt. Dixon ourselves and see if we can find a safe way up. &lt;/p&gt;
+The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy to practice self arrest and then continue for a walk around the Grand Plateau to investigate the approach to Mt. Dixon ourselves and see if we can find a safe way up.&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2015-aoraki/aoraki-1.jpg&quot; /&gt;
@@ -254,7 +345,7 @@ The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy 
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2015-aoraki/aoraki-2.jpg&quot; /&gt;
-	&lt;figcaption&gt;Mt. Dixon. Unfortunately I didn&#39;t think to take a photo until we were quite far from it. Usual access is the snow ramp to the ridgeline on the right&lt;/figcaption&gt;
+	&lt;figcaption&gt;Mt. Dixon. Unfortunately I didn't think to take a photo until we were quite far from it. Usual access is the snow ramp to the ridgeline on the right&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
@@ -334,26 +425,24 @@ The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy 
 &lt;figure&gt;
 	&lt;a href=&quot;/images/2015-aoraki/aoraki-panorama-full.jpg&quot; /&gt;
 	&lt;img src=&quot;/images/2015-aoraki/aoraki-panorama-small.jpg&quot; /&gt;
-	
+	&amp;lt;/a&amp;gt;
 	&lt;figcaption&gt;View of the Fox Glacier and Malte Brun from Glacier Dome&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/new-zealand-summer-2015/&quot;&gt;New Zealand Mountains Summer 2015&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 15, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/new-zealand-summer-2015/&quot;&gt;New Zealand Mountains Summer 2015&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 15, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[New Digital Stereo Source]]></title>
-  <link rel="alternate" type="text/html" href="/posts/new-digital-stereo-source/" />
-  <id>/posts/new-digital-stereo-source</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/new-digital-stereo-source/" />
+  <id>http://localhost:4000/posts/new-digital-stereo-source</id>
   <published>2015-11-01T12:16:20+11:00</published>
   <updated>2015-11-01T12:16:20+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -380,22 +469,20 @@ The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy 
 
 &lt;p&gt;Bottom line, an amazing purchase and, as with any new purchase, it has me appreciating not just my music collection anew but this time the world’s music collection anew thanks to Spotify and Internet Radio.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/new-digital-stereo-source/&quot;&gt;New Digital Stereo Source&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on November 01, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/new-digital-stereo-source/&quot;&gt;New Digital Stereo Source&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on November 01, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Router Mod With DD-WRT]]></title>
-  <link rel="alternate" type="text/html" href="/posts/router-mod-with-dd-wrt/" />
-  <id>/posts/router-mod-with-dd-wrt</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/router-mod-with-dd-wrt/" />
+  <id>http://localhost:4000/posts/router-mod-with-dd-wrt</id>
   <published>2015-05-05T11:16:20+10:00</published>
   <updated>2015-05-05T11:16:20+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -409,7 +496,7 @@ On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, tw
 
 &lt;p&gt;OK, let me rephrase. It took the Linux-using, free software-loving portion of the software development community by storm. But, you know, that’s still pretty significant.&lt;/p&gt;
 
-&lt;p&gt;At the time it was little more than an enforced release because they were using some GPL’d libraries (and my half-hearted attempts to even get it to compile were fruitless).  But over time cleverer people and cross compilers put together &lt;a href=&quot;http://www.dd-wrt.com&quot;&gt;DD-WRT&lt;/a&gt; and &lt;a href=&quot;https://openwrt.org&quot;&gt;OpenWRT&lt;/a&gt; custom firmware releases. Over time they developed and diverged, and were joined by a lot of other options. &lt;/p&gt;
+&lt;p&gt;At the time it was little more than an enforced release because they were using some GPL’d libraries (and my half-hearted attempts to even get it to compile were fruitless).  But over time cleverer people and cross compilers put together &lt;a href=&quot;http://www.dd-wrt.com&quot;&gt;DD-WRT&lt;/a&gt; and &lt;a href=&quot;https://openwrt.org&quot;&gt;OpenWRT&lt;/a&gt; custom firmware releases. Over time they developed and diverged, and were joined by a lot of other options.&lt;/p&gt;
 
 &lt;p&gt;Currently the three biggies are DD-WRT (feature rich), OpenWRT (package-based, essentially a Linux distro for your router) and &lt;a href=&quot;http://www.polarcloud.com/tomato&quot;&gt;Tomato&lt;/a&gt; (Pretty and user-friendly). Each of them let you tweak router configuration and do things you can’t do from a typical router configuration interface. So the big reasons to use one are to gain extra control, functions or analytics from your router.&lt;/p&gt;
 
@@ -457,8 +544,8 @@ On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, tw
 
 &lt;p&gt;For me that’s 2015-05-19, so down it comes. As does the latest stock firmware from NetGear, just in case it all goes wrong I want to have that handy.&lt;/p&gt;
 
-&lt;h3 id=&quot;flashing-dd-wrt&quot;&gt;Flashing DD-WRT&lt;/h3&gt;
-&lt;p&gt;Time to install it.&lt;/p&gt;
+&lt;p&gt;###Flashing DD-WRT
+Time to install it.&lt;/p&gt;
 
 &lt;p&gt;Connect your computer to your router with an ethernet cable and, if it’s not a brand new router, clear your web browser’s cache.&lt;/p&gt;
 
@@ -488,22 +575,20 @@ On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, tw
 
 &lt;p&gt;As you can see, the current connection speed is nearly 900MB/s, so I’m not too worried about testing different combinations of settings at the moment.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/router-mod-with-dd-wrt/&quot;&gt;Router Mod With DD-WRT&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 05, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/router-mod-with-dd-wrt/&quot;&gt;Router Mod With DD-WRT&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 05, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[The New Android Emulator You Have to Try]]></title>
-  <link rel="alternate" type="text/html" href="/posts/the-new-android-emulator-you-have-to-try/" />
-  <id>/posts/the-new-android-emulator-you-have-to-try</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/the-new-android-emulator-you-have-to-try/" />
+  <id>http://localhost:4000/posts/the-new-android-emulator-you-have-to-try</id>
   <published>2015-05-03T05:49:13+10:00</published>
   <updated>2015-05-03T05:49:13+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -534,22 +619,20 @@ On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, tw
 	&lt;figcaption&gt;This is how Genymotion explain their product&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/the-new-android-emulator-you-have-to-try/&quot;&gt;The New Android Emulator You Have to Try&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/the-new-android-emulator-you-have-to-try/&quot;&gt;The New Android Emulator You Have to Try&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Adding Photo Galleries to a Jekyll Site]]></title>
-  <link rel="alternate" type="text/html" href="/posts/adding-photo-galleries-to-a-jekyll-site/" />
-  <id>/posts/adding-photo-galleries-to-a-jekyll-site</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/adding-photo-galleries-to-a-jekyll-site/" />
+  <id>http://localhost:4000/posts/adding-photo-galleries-to-a-jekyll-site</id>
   <published>2015-05-02T07:11:24+10:00</published>
   <updated>2015-05-02T07:11:24+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -566,26 +649,26 @@ On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, tw
 &lt;h4 id=&quot;step-1-define-your-data&quot;&gt;Step 1. Define your data&lt;/h4&gt;
 &lt;p&gt;Create a YAML data file describing your galleries in your jekyll _data directory.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;gilli-diving&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Diving on Gilli Air&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;imagefolder&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/images/2015-gilli&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;gilli-1.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb-1.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Hanging at the bungalow drinking coconuts&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;gilli-2.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb-2.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;View from our room&lt;/span&gt;
-&lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;perp-anzac&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Point Perp&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;imagefolder&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;/images/2015-perp&lt;/span&gt;
-  &lt;span class=&quot;l-Scalar-Plain&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;perp-1.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb-1.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;Brittany&amp;#39;s first ever trad lead&lt;/span&gt;
-  &lt;span class=&quot;p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;perp-2.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;thumb-2.jpg&lt;/span&gt;
-    &lt;span class=&quot;l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;On my way up&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;gilli-diving&lt;/span&gt;
+  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;Diving on Gilli Air&lt;/span&gt;
+  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;imagefolder&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;/images/2015-gilli&lt;/span&gt;
+  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;gilli-1.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb-1.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;Hanging at the bungalow drinking coconuts&lt;/span&gt;
+  &lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;gilli-2.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb-2.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;View from our room&lt;/span&gt;
+&lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;perp-anzac&lt;/span&gt;
+  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;description&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;Point Perp&lt;/span&gt;
+  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;imagefolder&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;/images/2015-perp&lt;/span&gt;
+  &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;images&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;perp-1.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb-1.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;Brittany&amp;#39;s first ever trad lead&lt;/span&gt;
+  &lt;span class=&quot;p p-Indicator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;perp-2.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;thumb-2.jpg&lt;/span&gt;
+    &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;On my way up&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;step-2-add-a-galleries-link-to-your-navigation&quot;&gt;Step 2. Add a galleries link to your navigation&lt;/h4&gt;
 &lt;p&gt;Add an entry to &lt;code&gt;_data/navigation.yml&lt;/code&gt; directing to your galleries page (we’ll create it next).&lt;/p&gt;
@@ -593,21 +676,21 @@ On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, tw
 &lt;h4 id=&quot;step-3-create-your-galleries-page&quot;&gt;Step 3. Create your galleries page&lt;/h4&gt;
 &lt;p&gt;Create a new page wherever your galleries link was pointing - For me that was &lt;code&gt;/gallery/index.md&lt;/code&gt;. This page creates thumbnail links to each gallery, using a gallery image (randomised each time the site is re-generated).&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&lt;/span&gt;---
 layout: page
 title: &amp;quot;Galleries&amp;quot;
 ---
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;overflow: auto;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;overflow: auto;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 {% for gallery in site.data.galleries %}
 {% assign random = site.time | date: &amp;quot;%s%N&amp;quot; | modulo: gallery.images.size %}
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;gallery-thumb&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.id }}.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.description }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.description }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.imagefolder }}/{{ gallery.images[random].thumb }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;{{ gallery.description }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;br&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;{{ gallery.images | size }} images&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;gallery-thumb&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.id }}.html&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.description }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.description }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.imagefolder }}/{{ gallery.images[random].thumb }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;{{ gallery.description }}&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;br&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;{{ gallery.images | size }} images&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 {% endfor %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Don’t worry about the CSS, we’ll deal with that later.&lt;/p&gt;
 
@@ -615,40 +698,40 @@ title: &amp;quot;Galleries&amp;quot;
 &lt;p&gt;You’ll need a (mostly-blank) markdown page for each gallery, but first we’re going to define the layout template used to display a gallery.
 Create &lt;code&gt;_layouts/gallery.html&lt;/code&gt; using something like:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;---
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span&gt;&lt;/span&gt;---
 layout: page
 ---
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/assets/css/extra.css&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;/assets/css/extra.css&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
 
 {% for gallery in site.data.galleries %}
 	{% if gallery.id == page.galleryid %}
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;{{ gallery.description }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;list-gallery&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;{{ gallery.description }}&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;list-gallery&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 		{% for image in gallery.images %}
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.imagefolder }}/{{ image.name }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;itemprop=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;url&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ image.text }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-				&lt;span class=&quot;nt&quot;&gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ image.text }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ image.text }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.imagefolder }}/{{ image.thumb }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-			&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.imagefolder }}/{{ image.name }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;url&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ image.text }}&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+				&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ image.text }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ image.text }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;{{ gallery.imagefolder }}/{{ image.thumb }}&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+			&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 		{% endfor %}
-		&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
 	{% endif %}
-{% endfor %}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+{% endfor %}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;step-5-create-your-gallery-pages&quot;&gt;Step 5. Create your gallery pages&lt;/h4&gt;
 &lt;p&gt;This step is trivial but, because Jekyll generates static pages, needs to be done. Create a new markdown page in your gallery’s &lt;code&gt;imagefolder&lt;/code&gt; for each gallery. My &lt;code&gt;gallery/gilli-diving.md&lt;/code&gt;, for example, is:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;gallery&lt;/span&gt;
-&lt;span class=&quot;l-Scalar-Plain&quot;&gt;galleryid&lt;/span&gt;&lt;span class=&quot;p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l-Scalar-Plain&quot;&gt;gilli-diving&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;gallery&lt;/span&gt;
+&lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;galleryid&lt;/span&gt;&lt;span class=&quot;p p-Indicator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;l l-Scalar l-Scalar-Plain&quot;&gt;gilli-diving&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;step-6-make-it-pretty&quot;&gt;Step 6. Make it pretty&lt;/h4&gt;
 &lt;p&gt;A few SASS niceties largely finish things off. I created a new file &lt;code&gt;_sass/extra.scss&lt;/code&gt;, importing it into `assets/css/main.scss’ with&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;extra&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;extra&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;_sass/extra.scss:&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;gallery&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sass&quot; data-lang=&quot;sass&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;gallery&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;
 	&lt;span class=&quot;na&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;!important&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;na&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;na&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;150&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;
@@ -671,29 +754,27 @@ layout: page
 	&lt;span class=&quot;na&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;px&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;na&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;
 	&lt;span class=&quot;na&quot;&gt;vertical-align&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;middle&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;step-7-add-lightbox-support&quot;&gt;Step 7. Add Lightbox support&lt;/h4&gt;
 &lt;p&gt;I also added &lt;a href=&quot;http://lokeshdhakar.com/projects/lightbox2/&quot;&gt;Lightbox&lt;/a&gt; support when I was initially building this, and then became extremely confused about why I had two Lightbox-like photo slideshows layered atop one another. It looks like Jekyll already comes bundled with Lightbox, making this unnecessary.&lt;/p&gt;
 
 &lt;p&gt;So there you have it. Done, and it looks like &lt;a href=&quot;/gallery/&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/adding-photo-galleries-to-a-jekyll-site/&quot;&gt;Adding Photo Galleries to a Jekyll Site&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/adding-photo-galleries-to-a-jekyll-site/&quot;&gt;Adding Photo Galleries to a Jekyll Site&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Diving on Gilli Air, Indonesia (Gallery)]]></title>
-  <link rel="alternate" type="text/html" href="/posts/diving-on-gilli-air-indonesia-gallery/" />
-  <id>/posts/diving-on-gilli-air-indonesia-gallery</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/diving-on-gilli-air-indonesia-gallery/" />
+  <id>http://localhost:4000/posts/diving-on-gilli-air-indonesia-gallery</id>
   <published>2015-04-30T09:41:18+10:00</published>
   <updated>2015-04-30T09:41:18+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -701,22 +782,20 @@ layout: page
 
 &lt;p&gt;It turned out my recently-purchased waterproof, shockproof camera - bought so that I’d stop leaving my camera behind or in its bag when hiking and climbing to protect it from damage - was a much more brilliant purchase than expected. Being waterproof to 30m it accompanied us snorkelling and diving, and highlights from the trip are in &lt;a href=&quot;/gallery/gilli-diving.html&quot;&gt;the gallery&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/diving-on-gilli-air-indonesia-gallery/&quot;&gt;Diving on Gilli Air, Indonesia (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/diving-on-gilli-air-indonesia-gallery/&quot;&gt;Diving on Gilli Air, Indonesia (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Climbing Point Perpendicular (Gallery)]]></title>
-  <link rel="alternate" type="text/html" href="/posts/climbing-point-perpendicular-gallery/" />
-  <id>/posts/climbing-point-perpendicular-gallery</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/climbing-point-perpendicular-gallery/" />
+  <id>http://localhost:4000/posts/climbing-point-perpendicular-gallery</id>
   <published>2015-04-25T06:54:52+10:00</published>
   <updated>2015-04-25T06:54:52+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -728,22 +807,20 @@ layout: page
 
 &lt;p&gt;&lt;a href=&quot;/gallery/perp-anzac.html&quot;&gt;A couple of shots from the morning&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/climbing-point-perpendicular-gallery/&quot;&gt;Climbing Point Perpendicular (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 25, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/climbing-point-perpendicular-gallery/&quot;&gt;Climbing Point Perpendicular (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 25, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Summer 2014 Tramping NZ]]></title>
-  <link rel="alternate" type="text/html" href="/posts/summer-2014-tramping-nz/" />
-  <id>/posts/summer-2014-tramping-nz</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/summer-2014-tramping-nz/" />
+  <id>http://localhost:4000/posts/summer-2014-tramping-nz</id>
   <published>2015-01-28T06:21:33+11:00</published>
   <updated>2015-01-28T06:21:33+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -856,22 +933,20 @@ layout: page
 	&lt;img src=&quot;/images/2015-tramping/tramping3.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/summer-2014-tramping-nz/&quot;&gt;Summer 2014 Tramping NZ&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/summer-2014-tramping-nz/&quot;&gt;Summer 2014 Tramping NZ&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[The Grand Traverse of the Remarkables Ranges]]></title>
-  <link rel="alternate" type="text/html" href="/posts/remarkables-grand-traverse/" />
-  <id>/posts/remarkables-grand-traverse</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/remarkables-grand-traverse/" />
+  <id>http://localhost:4000/posts/remarkables-grand-traverse</id>
   <published>2015-01-21T06:20:09+11:00</published>
   <updated>2015-01-21T06:20:09+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -934,22 +1009,20 @@ layout: page
 	&lt;img src=&quot;/images/2015-remarks/remarks8.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/remarkables-grand-traverse/&quot;&gt;The Grand Traverse of the Remarkables Ranges&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 21, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/remarkables-grand-traverse/&quot;&gt;The Grand Traverse of the Remarkables Ranges&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 21, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Aspiring National Park]]></title>
-  <link rel="alternate" type="text/html" href="/posts/aspiring-national-park/" />
-  <id>/posts/aspiring-national-park</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/aspiring-national-park/" />
+  <id>http://localhost:4000/posts/aspiring-national-park</id>
   <published>2014-12-13T04:29:13+11:00</published>
   <updated>2014-12-13T04:29:13+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -959,14 +1032,14 @@ layout: page
   &lt;p&gt;Over the next few months plans became more concrete, Wendy took a contract in the Middle East, and before we knew it Brittany and I were days away from meeting up in Queenstown to begin 10 days in the mountains. Our plans were to spend a few days teaching Brittany to be safe on snow, ice and rope, a day climbing Mt. Aspiring, a couple of days walking out and to have a few extra days up our sleeve in case of bad weather.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;december&quot;&gt;29 December&lt;/h3&gt;
+&lt;h3 id=&quot;29-december&quot;&gt;29 December&lt;/h3&gt;
 &lt;p&gt;Fly into Queenstown to meet Brittany, who arrived yesterday. Flight delayed nearly two hours.&lt;/p&gt;
 
 &lt;p&gt;See Brittany. Visit outdoor stores for last minute gear (gas and nalgene). Way too much gear. How to make this work?&lt;/p&gt;
 
 &lt;p&gt;With 10 days food and &lt;strong&gt;lots&lt;/strong&gt; of gear (rock protection, snow protection, warm weather gear, wet weather gear, cold weather gear to the hilt, …) it’s obvious we don’t want to be walking in.&lt;/p&gt;
 
-&lt;h3 id=&quot;november&quot;&gt;30 November&lt;/h3&gt;
+&lt;h3 id=&quot;30-november&quot;&gt;30 November&lt;/h3&gt;
 &lt;p&gt;Bus to Wanaka. Arrived slightly early, pick up Brittany’s hire boots from Adventure Consultants, stashed in a hiding hole, along with a tarp to wrap our bags in for them to look after, because they’re closed on Sundays.&lt;/p&gt;
 
 &lt;p&gt;The boots fit well. So far so good.&lt;/p&gt;
@@ -983,7 +1056,7 @@ layout: page
 	&lt;img src=&quot;/images/2014-aspiring/aspiring1.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;december-1&quot;&gt;1 December&lt;/h3&gt;
+&lt;h3 id=&quot;1-december&quot;&gt;1 December&lt;/h3&gt;
 &lt;p&gt;Arrived at the hanger and the other party was all waiting already - We’re not being stood up this time!&lt;/p&gt;
 
 &lt;p&gt;Fly into Bonar Glacier, Brittany gets the front seat. Great flying in although my fingers freeze while gearing up in the shade and Chris gets cranky.&lt;/p&gt;
@@ -1023,7 +1096,7 @@ layout: page
 
 &lt;p&gt;Also, it turns out there aren’t stoves here and I’m now somewhat worried about how long my single gas canister will last. Dinner is chewy brown rice and crunchy split peas.&lt;/p&gt;
 
-&lt;h3 id=&quot;december-2&quot;&gt;2 December&lt;/h3&gt;
+&lt;h3 id=&quot;2-december&quot;&gt;2 December&lt;/h3&gt;
 &lt;p&gt;Sleep in until 8, manage to wake Brittany and start getting ready for the climb.&lt;/p&gt;
 
 &lt;p&gt;We breakfast on muesli (cold, conserving gas). A French guide and his partner are heading out and offer us extra gas. Thank God!&lt;/p&gt;
@@ -1063,7 +1136,7 @@ layout: page
 
 &lt;p&gt;Tomorrow will likely be good weather in the morning and terrible in the afternoon. Eyeing off Mainroyal in the guidebook, II/1, plan to leave at 7pm to be back by lunch time and well and truly before the weather comes in.&lt;/p&gt;
 
-&lt;h3 id=&quot;december-3&quot;&gt;3 December&lt;/h3&gt;
+&lt;h3 id=&quot;3-december&quot;&gt;3 December&lt;/h3&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2014-aspiring/aspiring14.jpg&quot; /&gt;
@@ -1086,7 +1159,7 @@ layout: page
 
 &lt;p&gt;Chat a bit to Jono through the afternoon about my trip in February and all sorts of things. He and Gabe are pretty fun. Spend most of the day reading.&lt;/p&gt;
 
-&lt;h3 id=&quot;december-4&quot;&gt;4 December&lt;/h3&gt;
+&lt;h3 id=&quot;4-december&quot;&gt;4 December&lt;/h3&gt;
 &lt;p&gt;Wake to heavy rain and wind. Sit in on the AC prussiking, rope and knots lessons. I help out while Brittany learns. They feed me coffee (!!!!), the doctor makes fun of the “Isagenix cult”, and we chat about climbing. The afternoon is a navigation lesson.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -1094,7 +1167,7 @@ layout: page
 	&lt;figcaption&gt;Hut days. Mountain Guide Gabriel gives a demo. &lt;a href=&quot;http://justonestep.eu&quot;&gt;justonestep.eu&lt;/a&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;december-5&quot;&gt;5 December&lt;/h3&gt;
+&lt;h3 id=&quot;5-december&quot;&gt;5 December&lt;/h3&gt;
 &lt;p&gt;Up at 4am to greet good weather and head to French Ridge Hut. We leave Colin Todd around 5.50 and the five hour walk takes about seven and a half hours.&lt;/p&gt;
 
 &lt;figure&gt;
@@ -1116,12 +1189,12 @@ layout: page
 
 &lt;p&gt;Brittany nearly pulls me into a &lt;strong&gt;big&lt;/strong&gt; crevasse and I lose my shit over lack of attentiveness. Mega blisters for me and sore neck for her make the rest of the walk pretty angsty. We make up over a rolled ankle a few hundred metres from the hut and Chris to the rescue. It’s obvious we’re not going any further today so we settle in (heavy rain and gales forecast for the next two days).&lt;/p&gt;
 
-&lt;h3 id=&quot;december-6&quot;&gt;6 December&lt;/h3&gt;
+&lt;h3 id=&quot;6-december&quot;&gt;6 December&lt;/h3&gt;
 &lt;p&gt;Cooking, tea, puzzles, card games and teaching Brittany hut-bound crevasse rescue and hauling systems.&lt;/p&gt;
 
 &lt;p&gt;In the afternoon I open the door of the hut to be surprised by a guy standing there in his undies. Apparently the walk up was warm. An interesting ex-vegetarian in his mid-twenties studying IT from Chicago, the three of us chat through the afternoon and, after the forecast, decide to head back down together early the next morning.&lt;/p&gt;
 
-&lt;h3 id=&quot;december-7&quot;&gt;7 December&lt;/h3&gt;
+&lt;h3 id=&quot;7-december&quot;&gt;7 December&lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;Snooze alarm&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Snooze alarm&lt;/em&gt;&lt;/p&gt;
@@ -1137,7 +1210,7 @@ layout: page
 	&lt;figcaption&gt;Cabin fever setting in?&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;december-8&quot;&gt;8 December&lt;/h3&gt;
+&lt;h3 id=&quot;8-december&quot;&gt;8 December&lt;/h3&gt;
 &lt;p&gt;We awake to a perfect day and a surprisingly-tough 7.5km down French Ridge. That’s 7.5km horizontal. And, I guess, about 2km vertical. Very steep going and it’s mid-afternoon by the time we get into Aspiring Hut. The hut warden kindly books a bus back to Wanaka for us (and gets lightly reprimanded for it).&lt;/p&gt;
 
 &lt;p&gt;A few group in the hut who have walked in from Raspberry Flats. One guy has nausea, vomiting, fever and stopped sweating during the day. After we convince him to take rehydration salts and get some water bottles around him to cool him Brittany and I discuss weather it’s heat &lt;em&gt;exhaustion&lt;/em&gt; or heat &lt;em&gt;stroke&lt;/em&gt;. The strange ways we entertain ourselves…&lt;/p&gt;
@@ -1149,29 +1222,27 @@ layout: page
 	&lt;img src=&quot;/images/2014-aspiring/aspiring23.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-&lt;h3 id=&quot;december-9&quot;&gt;9 December&lt;/h3&gt;
+&lt;h3 id=&quot;9-december&quot;&gt;9 December&lt;/h3&gt;
 &lt;p&gt;Any easy, flat, fast and beautiful stroll out to Raspberry Flats and we’re checking into a backpackers’, anxiously awaiting a shower, by lunch time.&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2014-aspiring/aspiring24.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/aspiring-national-park/&quot;&gt;Aspiring National Park&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 13, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/aspiring-national-park/&quot;&gt;Aspiring National Park&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 13, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[NZ Ice and Mixed Festival 2014]]></title>
-  <link rel="alternate" type="text/html" href="/posts/nz-ice-and-mixed-festival-2014/" />
-  <id>/posts/nz-ice-and-mixed-festival-2014</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/nz-ice-and-mixed-festival-2014/" />
+  <id>http://localhost:4000/posts/nz-ice-and-mixed-festival-2014</id>
   <published>2014-08-28T22:14:53+10:00</published>
   <updated>2014-08-28T22:14:53+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1292,22 +1363,20 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 	&lt;img src=&quot;/images/2014-nzimf/nzimf18.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/nz-ice-and-mixed-festival-2014/&quot;&gt;NZ Ice and Mixed Festival 2014&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on August 28, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/nz-ice-and-mixed-festival-2014/&quot;&gt;NZ Ice and Mixed Festival 2014&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on August 28, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Alpine Expedition Course]]></title>
-  <link rel="alternate" type="text/html" href="/posts/alpine-expedition-course/" />
-  <id>/posts/alpine-expedition-course</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/alpine-expedition-course/" />
+  <id>http://localhost:4000/posts/alpine-expedition-course</id>
   <published>2014-03-28T14:52:41+11:00</published>
   <updated>2014-03-28T14:52:41+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1457,22 +1526,20 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 &lt;/blockquote&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/posts/alpine-expedition-course/&quot;&gt;Alpine Expedition Course&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/alpine-expedition-course/&quot;&gt;Alpine Expedition Course&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Australian Alpine Walking Track (the Top Bit)]]></title>
-  <link rel="alternate" type="text/html" href="/posts/australian-alpine-walking-track-the-top-bit/" />
-  <id>/posts/australian-alpine-walking-track-the-top-bit</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/australian-alpine-walking-track-the-top-bit/" />
+  <id>http://localhost:4000/posts/australian-alpine-walking-track-the-top-bit</id>
   <published>2013-12-28T22:01:09+11:00</published>
   <updated>2013-12-28T22:01:09+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1496,17 +1563,17 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt2.jpg&quot; /&gt;
-	&lt;figcaption&gt;This is probably (possibly?) South Ram&#39;s Head from the Dead Horse Gap track&lt;/figcaption&gt;
+	&lt;figcaption&gt;This is probably (possibly?) South Ram's Head from the Dead Horse Gap track&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt3.jpg&quot; /&gt;
-	&lt;figcaption&gt;After walking up Dead Horse Gap in Winter 2012 I swore I&#39;d never do it again. How did I end up here?&lt;/figcaption&gt;
+	&lt;figcaption&gt;After walking up Dead Horse Gap in Winter 2012 I swore I'd never do it again. How did I end up here?&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt4.jpg&quot; /&gt;
-	&lt;figcaption&gt;Once atop the Gap it was smooth sailing into Rawson&#39;s Pass&lt;/figcaption&gt;
+	&lt;figcaption&gt;Once atop the Gap it was smooth sailing into Rawson's Pass&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
@@ -1532,7 +1599,7 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt7.jpg&quot; /&gt;
-	&lt;figcaption&gt;The stunning Main Range. It&#39;s amazing being up here&lt;/figcaption&gt;
+	&lt;figcaption&gt;The stunning Main Range. It's amazing being up here&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;figure&gt;
@@ -1555,7 +1622,7 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt12.jpg&quot; /&gt;
-	&lt;figcaption&gt;White&#39;s River Hut&lt;/figcaption&gt;
+	&lt;figcaption&gt;White's River Hut&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;day-2&quot;&gt;Day 2&lt;/h3&gt;
@@ -1569,7 +1636,7 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt13.jpg&quot; /&gt;
-	&lt;figcaption&gt;Valentine&#39;s Hut&lt;/figcaption&gt;
+	&lt;figcaption&gt;Valentine's Hut&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Beautiful scenery, good trail. Skipped Valentine’s Falls to avoid more arduous terrain after yesterday. Some sadist had put the hut 500m away from the trail up a damn big hill. And the toilet another 50m uphill.&lt;/p&gt;
@@ -1621,7 +1688,7 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt20.jpg&quot; /&gt;
-	&lt;figcaption&gt;Mackay&#39;s Hut&lt;/figcaption&gt;
+	&lt;figcaption&gt;Mackay's Hut&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h3 id=&quot;day-4&quot;&gt;Day 4&lt;/h3&gt;
@@ -1652,7 +1719,7 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt23.jpg&quot; /&gt;
-	&lt;figcaption&gt;Christmas dawns to the most amazing sunrise I&#39;ve ever seen&lt;/figcaption&gt;
+	&lt;figcaption&gt;Christmas dawns to the most amazing sunrise I've ever seen&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;ul&gt;
@@ -1682,7 +1749,7 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt26.jpg&quot; /&gt;
-	&lt;figcaption&gt;Also a large herd of brumbies as we set out for the day. They may be pests but they&#39;re beautiful&lt;/figcaption&gt;
+	&lt;figcaption&gt;Also a large herd of brumbies as we set out for the day. They may be pests but they're beautiful&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Putting our shoes on after crossing the Tantangara River a 4WD approaches and we chat to some fly fishermen who are out for the day. They agree to send Craig a message for us since we’ve been unable to get phone reception. &lt;strong&gt;YAY!&lt;/strong&gt;&lt;/p&gt;
@@ -1736,21 +1803,21 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt32.jpg&quot; /&gt;
-	&lt;figcaption&gt;When Mt. Bimberi appears in the distance we know we&#39;re getting close to the end&lt;/figcaption&gt;
+	&lt;figcaption&gt;When Mt. Bimberi appears in the distance we know we're getting close to the end&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Arrived at Oldfield’s Hut 1310, found dubious water in a barely-running stream, chopped firewood (well, Dani did the vast majority of that while I supervised) and relaxed.&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt34.jpg&quot; /&gt;
-	&lt;figcaption&gt;Oldfield&#39;s Hut&lt;/figcaption&gt;
+	&lt;figcaption&gt;Oldfield's Hut&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;Very satisfying to be mere kilometres from the ACT border!&lt;/p&gt;
 
 &lt;figure&gt;
 	&lt;img src=&quot;/images/2013-aawt/aawt33.jpg&quot; /&gt;
-	&lt;figcaption&gt;Mt. Bimberi from Oldfield&#39;s Hut&lt;/figcaption&gt;
+	&lt;figcaption&gt;Mt. Bimberi from Oldfield's Hut&lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;blockquote&gt;
@@ -1762,22 +1829,20 @@ To ease the suspense: We got out alive, although quite tired after the big day f
 	&lt;img src=&quot;/images/2013-aawt/aawt-map.png&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/australian-alpine-walking-track-the-top-bit/&quot;&gt;Australian Alpine Walking Track (the Top Bit)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 28, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/australian-alpine-walking-track-the-top-bit/&quot;&gt;Australian Alpine Walking Track (the Top Bit)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 28, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
-  
-
 <entry>
   <title type="html"><![CDATA[Cycling from Canberra to Melbourne]]></title>
-  <link rel="alternate" type="text/html" href="/posts/cycling-canberra-melbourne/" />
-  <id>/posts/cycling-canberra-melbourne</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/posts/cycling-canberra-melbourne/" />
+  <id>http://localhost:4000/posts/cycling-canberra-melbourne</id>
   <published>2010-06-30T00:00:00+10:00</published>
   <updated>2010-06-30T00:00:00+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1919,7 +1984,7 @@ After temptations to stop for a break at every service station along the way (wh
 But before too long I was cycling with the traffic through the busy streets of Melbourne, and after a couple of stops to check my route sheet and figure out where I was going I’d reached my destination.
 Once there it struck me that, after a 665km ride, my “epic” 140ish km weekend rides seemed a bit pathetic, and I began wondering what I could do next - 840km to Coffs Harbour? 1500km to the Sunshine Coast? We’ll see…&lt;/p&gt;
 
-&lt;h3 id=&quot;the-stats&quot;&gt;The stats&lt;/h3&gt;
+&lt;p&gt;###The stats&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Distance: 660.88km&lt;/li&gt;
@@ -1933,7 +1998,7 @@ Once there it struck me that, after a 665km ride, my “epic” 140ish km weeken
   &lt;li&gt;Punctures: 0 (Made up for by four during my first week back at work)&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/posts/cycling-canberra-melbourne/&quot;&gt;Cycling from Canberra to Melbourne&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on June 30, 2010.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/cycling-canberra-melbourne/&quot;&gt;Cycling from Canberra to Melbourne&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on June 30, 2010.&lt;/p&gt;
   </content>
 </entry>
 

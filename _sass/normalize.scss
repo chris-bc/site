@@ -395,4 +395,30 @@ table {
     border-spacing: 0;
     margin-bottom: 1.5em;
     width: 100%; /* make full width */
+    border:1px solid #777;
+}
+
+th {
+    border:1px solid #777;
+    background-color: #777;
+    color: #fff;
+}
+
+td {
+    border:1px solid #000000;
+    text-align: center;
+}
+
+td.left {
+    text-align: left;
+}
+
+tr.odd {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+tr.even {
+    background-color: #fff;
+    color: #333;
 }
