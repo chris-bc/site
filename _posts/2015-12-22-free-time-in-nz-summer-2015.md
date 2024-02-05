@@ -19,7 +19,7 @@ Having been walking and climbing in Aoraki/Mt. Cook National Park [less than twe
 With impending weather due to hit we walked up to Mueller Hut as a morning trip. A future trip staying out there - or climbing from there - could be worth considering, but it seemed a destination we had to check off our bucket list.
 We had a perfect morning for it so I donned what were to become my trusty mountain sandals and off we went up 423,509 steps.
 
-[**Photos of our walk to Mueller Hut**](/gallery/mueller-2015.html)
+[**Photos of our walk to Mueller Hut**](/gallery/mueller-2015/)
 
 ### Climbing at Sebastapol
 After walking to Mueller Hut we spent a fabulous afternoon climbing the routes at Unwin Crag, a few hundred metres from Unwin Lodge. We've climbed these before but they're fun climbs in a great position, and before long we're joined by two other people staying at Unwin Lodge and we start chatting.
