@@ -7,9 +7,9 @@ url:
 
 # Jekyll configuration
 
+theme: minimal-mistakes-jekyll
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
@@ -55,5 +55,5 @@ owner:
   weibo: #username
   flickr: #username
 
-include: [".htaccess"]
+include: [".htaccess", "gallery"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
