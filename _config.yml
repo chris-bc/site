@@ -7,9 +7,9 @@ url:
 
 # Jekyll configuration
 
+theme: minimal-mistakes-jekyll
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
 sass:
   sass_dir: _sass
   style: compressed
