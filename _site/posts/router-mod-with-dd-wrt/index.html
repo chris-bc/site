@@ -1,0 +1,282 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Router Mod With DD-WRT &#8211; BENNETTSCASH</title>
+<meta name="description" content="An overview of installing and configuring the DD-WRT open source router firmware.">
+<meta name="keywords" content="Development, Infrastructure, VPN">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Router Mod With DD-WRT">
+<meta name="twitter:description" content="An overview of installing and configuring the DD-WRT open source router firmware.">
+<meta name="twitter:site" content="@chris_bc">
+<meta name="twitter:creator" content="@chris_bc">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://192.168.0.137:4000/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_AU">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Router Mod With DD-WRT">
+<meta property="og:description" content="An overview of installing and configuring the DD-WRT open source router firmware.">
+<meta property="og:url" content="http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/">
+<meta property="og:site_name" content="BENNETTSCASH">
+
+
+
+
+
+<link rel="canonical" href="http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/">
+<link href="http://192.168.0.137:4000/feed.xml" type="application/atom+xml" rel="alternate" title="BENNETTSCASH Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://192.168.0.137:4000/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://192.168.0.137:4000/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://192.168.0.137:4000/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://192.168.0.137:4000/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://192.168.0.137:4000/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://192.168.0.137:4000/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://192.168.0.137:4000/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://192.168.0.137:4000/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://192.168.0.137:4000/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://192.168.0.137:4000/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://192.168.0.137:4000/">BENNETTSCASH</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				    <li><a href="http://192.168.0.137:4000/posts/" >All Posts</a></li>
+				
+				    
+				    <li><a href="http://192.168.0.137:4000/gallery/" >Photos</a></li>
+				
+				    
+				    <li><a href="http://www.bennettscash.id.au/old-index.html" target="_blank">Old Site</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="http://192.168.0.137:4000/images/bio-photo.jpg" class="bio-photo" alt="Chris Bennetts-Cash bio photo">
+
+
+  <h3 itemprop="name">Chris Bennetts-Cash</h3>
+  <p>Climber. Software engineer. Audio geek.</p>
+  <a href="mailto:chris@bennettscash.id.au" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i>Email</a>
+  <a href="http://twitter.com/chris_bc" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  <a href="http://facebook.com/bennettscash" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+  
+  
+  
+  
+  <a href="http://github.com/chris-bc" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  <a href="http://stackoverflow.com/users/1517/chris-b-c" class="author-social" target="_blank"><i class="fa fa-fw fa-stack-overflow"></i> Stackoverflow</a>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/" rel="bookmark" title="Router Mod With DD-WRT">Router Mod With DD-WRT</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <blockquote>
+  <p>I’ve been interested in custom and open-source router firmware since the early noughties, when Linksys and NetComm began using GPL  components and subsequently were required to publish their source code, and did so in an incredibly-difficult-to-compile manner.
+On and off over the past couple of years I’ve looked at DD-WRT and OpenWRT, two of the more popular open source router firmware distributions, but never had a compelling reason to mess with them. The passage of the Metadata Retention Act into Australia, I think, changes that and makes encapsulating everything I do in a VPN much more compelling. Since I’ll be messing with router settings anyway, why not mess properly?</p>
+</blockquote>
+
+<h3 id="why-bother">Why bother?</h3>
+<p>The answer used to be <em>“because you can”</em>. When Linksys first published the source code for their firmware it took the world by storm.</p>
+
+<p>OK, let me rephrase. It took the Linux-using, free software-loving portion of the software development community by storm. But, you know, that’s still pretty significant.</p>
+
+<p>At the time it was little more than an enforced release because they were using some GPL’d libraries (and my half-hearted attempts to even get it to compile were fruitless).  But over time cleverer people and cross compilers put together <a href="http://www.dd-wrt.com">DD-WRT</a> and <a href="https://openwrt.org">OpenWRT</a> custom firmware releases. Over time they developed and diverged, and were joined by a lot of other options.</p>
+
+<p>Currently the three biggies are DD-WRT (feature rich), OpenWRT (package-based, essentially a Linux distro for your router) and <a href="http://www.polarcloud.com/tomato">Tomato</a> (Pretty and user-friendly). Each of them let you tweak router configuration and do things you can’t do from a typical router configuration interface. So the big reasons to use one are to gain extra control, functions or analytics from your router.</p>
+
+<h3 id="which-firmware">Which firmware?</h3>
+<p>I don’t have a lot of time and (I assume) picking and choosing packages will take a bit of that, so OpenWRT is out.</p>
+
+<p>I want the capacity to play and tweak, and want solid VPN configuration and performance, which makes me lean more toward DD-WRT than Tomato. Decision made.</p>
+
+<p>There are <a href="https://vpncritic.com/tomato-vs-dd-wrt-vs-openwrt/">lots</a> <a href="http://securerouter.org/tech-tips/dd-wrt-or-tomato-or-openwrt-or/">of</a> <a href="http://vpnpick.com/dd-wrt-vs-tomato-vs-open-wrt/">sites</a> offering comparisons so take a look and decide for yourself.</p>
+
+<h3 id="which-router">Which router?</h3>
+<p>The obvious choice is the router plugged into your wall right now. The obvious consequence of that, however, is that you’ll be out of Internet during the upgrade. Possibly longer if things don’t go to plan.</p>
+
+<p>In any event, in my case my current router is about four years old, was cheap at the time, struggles to stream things to my Apple TV and, if it started having to tunnel all traffic through a VPN, would probably have a heart attack. All in all a good set of excuses to get a new router.</p>
+
+<p>I spent some time Googling, comparing and reading reviews and ended up with the <a href="http://www.netgear.com.au/home/products/networking/wifi-routers/R7000.aspx?gclid=CN2VlNvCsMUCFdcjvQoduXAATA">Netgear R7000 Nighthawk</a>.</p>
+
+<figure>
+	<img class="centered-image" alt="Netgear R7000 Nighthawk" src="/images/2015-ddwrt/nighthawk.jpg" />
+	<figcaption>Netgear R7000 Nighthawk. Almost like a batmobile</figcaption>
+</figure>
+
+<h3 id="getting-ready">Getting ready</h3>
+<p>Now it’s time to download firmware versions and a copy of the DD-WRT installation instructions just in case things don’t go to plan. Normally this is simply a case of looking up your router in the <a href="http://www.dd-wrt.com/site/support/router-database">supported routers database</a> and downloading the initial ROM and, possibly, an additional recommended ROM. It turns out the NightHawk is a special case here, however, and isn’t listed in the database. Hmmmm…</p>
+
+<p>But it’s far from unsupported. Useful documentation is still relatively prevalent, and if you look around there are loads of good resources. But the one you should pay attention to if you’re using a NightHawk (it’s updated every couple of weeks) is <a href="http://www.dd-wrt.com/phpBB2/viewtopic.php?t=264152">this forum post</a>.</p>
+
+<p>Otherwise:</p>
+
+<ul>
+  <li><a href="http://www.dd-wrt.com/wiki/index.php/Installation">General DD-WRT installation instructions</a></li>
+  <li><a href="http://www.dd-wrt.com/wiki/index.php/Tutorials">General DD-WRT tutorials</a></li>
+  <li><a href="http://www.tweaking4all.com/hardware/netgear-r7000-dd-wrt/">Someone else’s NightHawk installation blog entry</a></li>
+</ul>
+
+<p>And of course, the ROMS:</p>
+
+<ul>
+  <li><a href="ftp://ftp.dd-wrt.com/betas/2015/">ftp://ftp.dd-wrt.com/betas/2015/</a></li>
+  <li><a href="http://www.desipro.de/ddwrt-ren/K3-AC-Arm/">NightHawk Only - http://www.desipro.de/ddwrt-ren/K3-AC-Arm/</a></li>
+  <li><a href="http://desipro.de/ddwrt/K3-AC-Arm/">NightHawk Only - http://desipro.de/ddwrt/K3-AC-Arm/</a></li>
+</ul>
+
+<p>Which ROM to install isn’t so straightforward if you’re using a NightHawk and nobody seems willing to give advice. If you’re not using a NightHawk, just download whatever the supported routers database tells you to. The detailed forum post says the last build with working bridge mode was 26125, but that is <strong>very</strong> old, and it also lists several problems fixed in February and March 2015. So what the hey, maybe the very latest build is the best idea?</p>
+
+<p>For me that’s 2015-05-19, so down it comes. As does the latest stock firmware from NetGear, just in case it all goes wrong I want to have that handy.</p>
+
+<p>###Flashing DD-WRT
+Time to install it.</p>
+
+<p>Connect your computer to your router with an ethernet cable and, if it’s not a brand new router, clear your web browser’s cache.</p>
+
+<p>Log into your router’s management page, find the page to upload a new firmware version, and upload the DD-WRT initial firmware. Continue through any warnings you get and wait for the process to complete in full. Do what’s necessary for a factory reset to clear NVRAM, for the NightHawk this is easy - Just go to its management page (you’ll need to set an initial username and password first), then:</p>
+<figure>
+	<img class="centered-image" alt="Administration-Factory-defaults" src="/images/2015-ddwrt/factory-restore.jpg" />
+	<figcaption>Administration section, Factory Restore tab</figcaption>
+</figure>
+
+<p>This will result in a reboot and you’ll need to again set an initial username and password. Configure the router as you need to, but here are some tidbits</p>
+
+<h3 id="wifi-settings">WiFi settings</h3>
+<p>It seems like setting an upper-upper extension channel makes a considerable difference - I have’t yet had time to trial different combinations of settings, but this is what I’m currently using.</p>
+
+<figure>
+	<img class="centered-image" alt="Wireless settings" src="/images/2015-ddwrt/wireless-settings.jpg" />
+	<figcaption>Current wireless settings for my 5GHz interface</figcaption>
+</figure>
+
+<h3 id="testing-performance">Testing performance</h3>
+<p>On a Mac, you can get some useful information on your network connection by option-clicking on the wireless icon in the menu bar:</p>
+
+<figure>
+	<img class="centered-image" alt="Detailed wireless connection info" src="/images/2015-ddwrt/wireless-status.jpg" />
+	<figcaption>Detailed network connection information is available on a Mac by option-clicking the wireless icon</figcaption>
+</figure>
+
+<p>As you can see, the current connection speed is nearly 900MB/s, so I’m not too worried about testing different combinations of settings at the moment.</p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="social-share">
+  <h4>Share on</h4>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->
+        <p class="byline"><strong>Router Mod With DD-WRT</strong> was published on <time datetime="2015-05-05T11:16:20+10:00">May 05, 2015</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://192.168.0.137:4000/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://192.168.0.137:4000/posts/load-testing-the-euro-death-knot/" title="Load Testing the Euro Death Knot (flat overhand)">Load Testing the Euro Death Knot (flat overhand)</a></li>
+    
+      <li><a href="http://192.168.0.137:4000/posts/some-love-for-the-munter-hitch/" title="For the Love of the Munter Hitch">For the Love of the Munter Hitch</a></li>
+    
+      <li><a href="http://192.168.0.137:4000/posts/free-time-in-nz-summer-2015/" title="Free Time in NZ (Summer 2015)">Free Time in NZ (Summer 2015)</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2024 Chris Bennetts-Cash. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme.</span>
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://192.168.0.137:4000/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://192.168.0.137:4000/assets/js/scripts.min.js"></script>
+
+	        
+
+</body>
+</html>
