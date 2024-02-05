@@ -2,26 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">BENNETTSCASH</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://192.168.0.137:4000/feed.xml" />
-<link rel="alternate" type="text/html" href="http://192.168.0.137:4000" />
-<updated>2024-02-05T16:20:54+11:00</updated>
-<id>http://192.168.0.137:4000/</id>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2024-02-05T16:49:56+11:00</updated>
+<id>/</id>
 <author>
   <name>Chris Bennetts-Cash</name>
-  <uri>http://192.168.0.137:4000/</uri>
+  <uri>/</uri>
   <email>chris@bennettscash.id.au</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Load Testing the Euro Death Knot (flat overhand)]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/load-testing-the-euro-death-knot/" />
-  <id>http://192.168.0.137:4000/posts/load-testing-the-euro-death-knot</id>
+  <link rel="alternate" type="text/html" href="/posts/load-testing-the-euro-death-knot/" />
+  <id>/posts/load-testing-the-euro-death-knot</id>
   <published>2020-03-28T18:15:57+11:00</published>
   <updated>2020-03-28T18:15:57+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -105,20 +105,20 @@ I haven’t, and after discussing this recently I thought it would be interestin
 &lt;/figure&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/load-testing-the-euro-death-knot/&quot;&gt;Load Testing the Euro Death Knot (flat overhand)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2020.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/load-testing-the-euro-death-knot/&quot;&gt;Load Testing the Euro Death Knot (flat overhand)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2020.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[For the Love of the Munter Hitch]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/some-love-for-the-munter-hitch/" />
-  <id>http://192.168.0.137:4000/posts/some-love-for-the-munter-hitch</id>
+  <link rel="alternate" type="text/html" href="/posts/some-love-for-the-munter-hitch/" />
+  <id>/posts/some-love-for-the-munter-hitch</id>
   <published>2016-07-17T20:15:57+10:00</published>
   <updated>2016-07-17T20:15:57+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -210,20 +210,20 @@ Hold the tail so that it forms a second loop around the loaded rope and clip the
 	&lt;figcaption&gt;Tying a Monster Münter&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/some-love-for-the-munter-hitch/&quot;&gt;For the Love of the Munter Hitch&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on July 17, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/some-love-for-the-munter-hitch/&quot;&gt;For the Love of the Munter Hitch&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on July 17, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Free Time in NZ (Summer 2015)]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/free-time-in-nz-summer-2015/" />
-  <id>http://192.168.0.137:4000/posts/free-time-in-nz-summer-2015</id>
+  <link rel="alternate" type="text/html" href="/posts/free-time-in-nz-summer-2015/" />
+  <id>/posts/free-time-in-nz-summer-2015</id>
   <published>2015-12-22T12:16:20+11:00</published>
   <updated>2015-12-22T12:16:20+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -302,20 +302,20 @@ We had a perfect morning for it so I donned what were to become my trusty mounta
 	&lt;figcaption&gt;Some climbers from california top roping a classic-looking 19&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/free-time-in-nz-summer-2015/&quot;&gt;Free Time in NZ (Summer 2015)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 22, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/free-time-in-nz-summer-2015/&quot;&gt;Free Time in NZ (Summer 2015)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 22, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[New Zealand Mountains Summer 2015]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/new-zealand-summer-2015/" />
-  <id>http://192.168.0.137:4000/posts/new-zealand-summer-2015</id>
+  <link rel="alternate" type="text/html" href="/posts/new-zealand-summer-2015/" />
+  <id>/posts/new-zealand-summer-2015</id>
   <published>2015-12-15T12:16:20+11:00</published>
   <updated>2015-12-15T12:16:20+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -429,20 +429,20 @@ The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy 
 	&lt;figcaption&gt;View of the Fox Glacier and Malte Brun from Glacier Dome&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/new-zealand-summer-2015/&quot;&gt;New Zealand Mountains Summer 2015&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 15, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/new-zealand-summer-2015/&quot;&gt;New Zealand Mountains Summer 2015&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 15, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[New Digital Stereo Source]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/new-digital-stereo-source/" />
-  <id>http://192.168.0.137:4000/posts/new-digital-stereo-source</id>
+  <link rel="alternate" type="text/html" href="/posts/new-digital-stereo-source/" />
+  <id>/posts/new-digital-stereo-source</id>
   <published>2015-11-01T12:16:20+11:00</published>
   <updated>2015-11-01T12:16:20+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -469,20 +469,20 @@ The weather couldn’t be better so we use the slopes of Glacier Dome for Wendy 
 
 &lt;p&gt;Bottom line, an amazing purchase and, as with any new purchase, it has me appreciating not just my music collection anew but this time the world’s music collection anew thanks to Spotify and Internet Radio.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/new-digital-stereo-source/&quot;&gt;New Digital Stereo Source&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on November 01, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/new-digital-stereo-source/&quot;&gt;New Digital Stereo Source&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on November 01, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Router Mod With DD-WRT]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/" />
-  <id>http://192.168.0.137:4000/posts/router-mod-with-dd-wrt</id>
+  <link rel="alternate" type="text/html" href="/posts/router-mod-with-dd-wrt/" />
+  <id>/posts/router-mod-with-dd-wrt</id>
   <published>2015-05-05T11:16:20+10:00</published>
   <updated>2015-05-05T11:16:20+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -575,20 +575,20 @@ Time to install it.&lt;/p&gt;
 
 &lt;p&gt;As you can see, the current connection speed is nearly 900MB/s, so I’m not too worried about testing different combinations of settings at the moment.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/router-mod-with-dd-wrt/&quot;&gt;Router Mod With DD-WRT&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 05, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/router-mod-with-dd-wrt/&quot;&gt;Router Mod With DD-WRT&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 05, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The New Android Emulator You Have to Try]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/the-new-android-emulator-you-have-to-try/" />
-  <id>http://192.168.0.137:4000/posts/the-new-android-emulator-you-have-to-try</id>
+  <link rel="alternate" type="text/html" href="/posts/the-new-android-emulator-you-have-to-try/" />
+  <id>/posts/the-new-android-emulator-you-have-to-try</id>
   <published>2015-05-03T05:49:13+10:00</published>
   <updated>2015-05-03T05:49:13+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -619,20 +619,20 @@ Time to install it.&lt;/p&gt;
 	&lt;figcaption&gt;This is how Genymotion explain their product&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/the-new-android-emulator-you-have-to-try/&quot;&gt;The New Android Emulator You Have to Try&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 03, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/the-new-android-emulator-you-have-to-try/&quot;&gt;The New Android Emulator You Have to Try&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 03, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Adding Photo Galleries to a Jekyll Site]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/adding-photo-galleries-to-a-jekyll-site/" />
-  <id>http://192.168.0.137:4000/posts/adding-photo-galleries-to-a-jekyll-site</id>
+  <link rel="alternate" type="text/html" href="/posts/adding-photo-galleries-to-a-jekyll-site/" />
+  <id>/posts/adding-photo-galleries-to-a-jekyll-site</id>
   <published>2015-05-02T07:11:24+10:00</published>
   <updated>2015-05-02T07:11:24+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -761,20 +761,20 @@ layout: page
 
 &lt;p&gt;So there you have it. Done, and it looks like &lt;a href=&quot;/gallery/&quot;&gt;this&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/adding-photo-galleries-to-a-jekyll-site/&quot;&gt;Adding Photo Galleries to a Jekyll Site&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/adding-photo-galleries-to-a-jekyll-site/&quot;&gt;Adding Photo Galleries to a Jekyll Site&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on May 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Diving on Gilli Air, Indonesia (Gallery)]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/diving-on-gilli-air-indonesia-gallery/" />
-  <id>http://192.168.0.137:4000/posts/diving-on-gilli-air-indonesia-gallery</id>
+  <link rel="alternate" type="text/html" href="/posts/diving-on-gilli-air-indonesia-gallery/" />
+  <id>/posts/diving-on-gilli-air-indonesia-gallery</id>
   <published>2015-04-30T09:41:18+10:00</published>
   <updated>2015-04-30T09:41:18+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -782,20 +782,20 @@ layout: page
 
 &lt;p&gt;It turned out my recently-purchased waterproof, shockproof camera - bought so that I’d stop leaving my camera behind or in its bag when hiking and climbing to protect it from damage - was a much more brilliant purchase than expected. Being waterproof to 30m it accompanied us snorkelling and diving, and highlights from the trip are in &lt;a href=&quot;/gallery/gilli-diving.html&quot;&gt;the gallery&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/diving-on-gilli-air-indonesia-gallery/&quot;&gt;Diving on Gilli Air, Indonesia (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/diving-on-gilli-air-indonesia-gallery/&quot;&gt;Diving on Gilli Air, Indonesia (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 30, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Climbing Point Perpendicular (Gallery)]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/climbing-point-perpendicular-gallery/" />
-  <id>http://192.168.0.137:4000/posts/climbing-point-perpendicular-gallery</id>
+  <link rel="alternate" type="text/html" href="/posts/climbing-point-perpendicular-gallery/" />
+  <id>/posts/climbing-point-perpendicular-gallery</id>
   <published>2015-04-25T06:54:52+10:00</published>
   <updated>2015-04-25T06:54:52+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -807,20 +807,20 @@ layout: page
 
 &lt;p&gt;&lt;a href=&quot;/gallery/perp-anzac.html&quot;&gt;A couple of shots from the morning&lt;/a&gt;.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/climbing-point-perpendicular-gallery/&quot;&gt;Climbing Point Perpendicular (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 25, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/climbing-point-perpendicular-gallery/&quot;&gt;Climbing Point Perpendicular (Gallery)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 25, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Summer 2014 Tramping NZ]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/summer-2014-tramping-nz/" />
-  <id>http://192.168.0.137:4000/posts/summer-2014-tramping-nz</id>
+  <link rel="alternate" type="text/html" href="/posts/summer-2014-tramping-nz/" />
+  <id>/posts/summer-2014-tramping-nz</id>
   <published>2015-01-28T06:21:33+11:00</published>
   <updated>2015-01-28T06:21:33+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -933,20 +933,20 @@ layout: page
 	&lt;img src=&quot;/images/2015-tramping/tramping3.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/summer-2014-tramping-nz/&quot;&gt;Summer 2014 Tramping NZ&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/summer-2014-tramping-nz/&quot;&gt;Summer 2014 Tramping NZ&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 28, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The Grand Traverse of the Remarkables Ranges]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/remarkables-grand-traverse/" />
-  <id>http://192.168.0.137:4000/posts/remarkables-grand-traverse</id>
+  <link rel="alternate" type="text/html" href="/posts/remarkables-grand-traverse/" />
+  <id>/posts/remarkables-grand-traverse</id>
   <published>2015-01-21T06:20:09+11:00</published>
   <updated>2015-01-21T06:20:09+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1009,20 +1009,20 @@ layout: page
 	&lt;img src=&quot;/images/2015-remarks/remarks8.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/remarkables-grand-traverse/&quot;&gt;The Grand Traverse of the Remarkables Ranges&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 21, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/remarkables-grand-traverse/&quot;&gt;The Grand Traverse of the Remarkables Ranges&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on January 21, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Aspiring National Park]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/aspiring-national-park/" />
-  <id>http://192.168.0.137:4000/posts/aspiring-national-park</id>
+  <link rel="alternate" type="text/html" href="/posts/aspiring-national-park/" />
+  <id>/posts/aspiring-national-park</id>
   <published>2014-12-13T04:29:13+11:00</published>
   <updated>2014-12-13T04:29:13+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1229,20 +1229,20 @@ layout: page
 	&lt;img src=&quot;/images/2014-aspiring/aspiring24.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/aspiring-national-park/&quot;&gt;Aspiring National Park&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 13, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/aspiring-national-park/&quot;&gt;Aspiring National Park&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 13, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[NZ Ice and Mixed Festival 2014]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/nz-ice-and-mixed-festival-2014/" />
-  <id>http://192.168.0.137:4000/posts/nz-ice-and-mixed-festival-2014</id>
+  <link rel="alternate" type="text/html" href="/posts/nz-ice-and-mixed-festival-2014/" />
+  <id>/posts/nz-ice-and-mixed-festival-2014</id>
   <published>2014-08-28T22:14:53+10:00</published>
   <updated>2014-08-28T22:14:53+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1363,20 +1363,20 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 	&lt;img src=&quot;/images/2014-nzimf/nzimf18.jpg&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/nz-ice-and-mixed-festival-2014/&quot;&gt;NZ Ice and Mixed Festival 2014&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on August 28, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/nz-ice-and-mixed-festival-2014/&quot;&gt;NZ Ice and Mixed Festival 2014&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on August 28, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Alpine Expedition Course]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/alpine-expedition-course/" />
-  <id>http://192.168.0.137:4000/posts/alpine-expedition-course</id>
+  <link rel="alternate" type="text/html" href="/posts/alpine-expedition-course/" />
+  <id>/posts/alpine-expedition-course</id>
   <published>2014-03-28T14:52:41+11:00</published>
   <updated>2014-03-28T14:52:41+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1526,20 +1526,20 @@ Dry tooling is where you use ice tools:&lt;/p&gt;
 &lt;/blockquote&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/alpine-expedition-course/&quot;&gt;Alpine Expedition Course&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2014.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/alpine-expedition-course/&quot;&gt;Alpine Expedition Course&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on March 28, 2014.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Australian Alpine Walking Track (the Top Bit)]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/australian-alpine-walking-track-the-top-bit/" />
-  <id>http://192.168.0.137:4000/posts/australian-alpine-walking-track-the-top-bit</id>
+  <link rel="alternate" type="text/html" href="/posts/australian-alpine-walking-track-the-top-bit/" />
+  <id>/posts/australian-alpine-walking-track-the-top-bit</id>
   <published>2013-12-28T22:01:09+11:00</published>
   <updated>2013-12-28T22:01:09+11:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1829,20 +1829,20 @@ To ease the suspense: We got out alive, although quite tired after the big day f
 	&lt;img src=&quot;/images/2013-aawt/aawt-map.png&quot; /&gt;
 &lt;/figure&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/australian-alpine-walking-track-the-top-bit/&quot;&gt;Australian Alpine Walking Track (the Top Bit)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 28, 2013.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/australian-alpine-walking-track-the-top-bit/&quot;&gt;Australian Alpine Walking Track (the Top Bit)&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on December 28, 2013.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Cycling from Canberra to Melbourne]]></title>
-  <link rel="alternate" type="text/html" href="http://192.168.0.137:4000/posts/cycling-canberra-melbourne/" />
-  <id>http://192.168.0.137:4000/posts/cycling-canberra-melbourne</id>
+  <link rel="alternate" type="text/html" href="/posts/cycling-canberra-melbourne/" />
+  <id>/posts/cycling-canberra-melbourne</id>
   <published>2010-06-30T00:00:00+10:00</published>
   <updated>2010-06-30T00:00:00+10:00</updated>
   <author>
     <name>Chris Bennetts-Cash</name>
-    <uri>http://192.168.0.137:4000</uri>
+    <uri></uri>
     <email>chris@bennettscash.id.au</email>
   </author>
   <content type="html">
@@ -1998,7 +1998,7 @@ Once there it struck me that, after a 665km ride, my “epic” 140ish km weeken
   &lt;li&gt;Punctures: 0 (Made up for by four during my first week back at work)&lt;/li&gt;
 &lt;/ul&gt;
 
-    &lt;p&gt;&lt;a href=&quot;http://192.168.0.137:4000/posts/cycling-canberra-melbourne/&quot;&gt;Cycling from Canberra to Melbourne&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://192.168.0.137:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on June 30, 2010.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/posts/cycling-canberra-melbourne/&quot;&gt;Cycling from Canberra to Melbourne&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;&quot;&gt;BENNETTSCASH&lt;/a&gt; on June 30, 2010.&lt;/p&gt;
   </content>
 </entry>
 
