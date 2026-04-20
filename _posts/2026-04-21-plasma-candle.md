@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "High Frequency Solid State Tesla Coil (HFSSSC) aka \"Plasma candle\" - Build from kit"
+title: "High Frequency Solid State Tesla Coil (HFSSTC) aka \"Plasma candle\" - Build from kit"
 modified: 
 categories: posts
 excerpt: Numerous HFSSTCs / plasma candles are available from worldwide vendors such as AliExpress, Temu, Shein, BangGood and Amazon. These typically arrive with no instructions - just a bag of components for you to figure out yourselves. This documents walks through building one of these kits.
@@ -34,6 +34,9 @@ And so it went. I found it relatively easy but not entirely clear. I think of my
 
 If you're not using the acrylic case it is much faster to build - it should be obvious which instructions you need to follow and which you don't. These instructions focus on building the acrylic frame and Tesla coil together.
 
+### Table of contents
+
+&lt;TODO&gt;
 
 ### Instructions
 
