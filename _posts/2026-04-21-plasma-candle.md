@@ -9,11 +9,19 @@ comments: true
 image:
   feature: "2026-plasma-candle/Alight-thumb.jpg"
 date: 2026-04-19T20:00:00+10:00
+
+gallery-kit:
+    - url: /images/2026-plasma-candle/step-0a-components-front.jpg
+      image_path: /images/2026-plasma-candle/step-0a-components-front.jpg
+      alt: "Contents of the kit - front view"
+      title: "Kit Contents - Front View"
+    - url: /images/2026-plasma-candle/step-0b-components-back.jpg
+      image_path: /images/2026-plasma-candle/step-0b-components-back.jpg
+      alt: "Contents of the kit - rear view"
+      title: "Kit Contents - Rear View"
+
 ---
 
-<a id="top"/>
-
-{: #introduction}
 ### Introduction
 
 Have you ever excitedly, perhaps a little inebriated, ordered a gadget off AliExpress, Shein, Temu, Amazon, etc.? One morning I woke up having ordered a pair of five watt LASER diodes. The legal limit for LASERs in Australia is one *milliwatt*! Thankfully I'd realised early enough and been able to cancel the order.
@@ -29,9 +37,10 @@ If you're not using the acrylic case it is much faster to build - it should be o
 
 ### Instructions
 
+#### Preparation
+
 Don't bother doing a parts count - they've supplied more than you need - but you *do* need to identify the different types of bolt. In the complete kit case (acrylic and Tesla coil) we have:
 
-<span style="font-size:-1;">
 * Long silver bolts (at least 4)
 * Long brass bolts (at least 4)
 * Small silver bolts (at least 12)
@@ -59,41 +68,82 @@ Don't bother doing a parts count - they've supplied more than you need - but you
 * Primary coil PCB - This is the PCB with the round outline of the primary coil on it. We'll be calling the side with the round outline the **top** side of the PCB.
 * Driver PCB - This is the PCB that isn't the Primary coil PCB. It *doesn't* have an outline of the primary coil on it and *does* have a lot of pre-installed surface mount devices. We'll call the **top** the side that has a Zener diode mounted in the air to keep it clear of other components.
 
-</span>
+{% include gallery id="gallery-kit" caption="Kit contents" layout="half" %}
 
-OK, let's go!
 
-<a id="step-1"/>
+#### Step 1
 
-1. Take the Primary coil PCB - this is the PCB with the round outline of the primary coil on it. We'll call the side with this outline the **top**.
+Take the Primary coil PCB - this is the PCB with the round outline of the primary coil on it. We'll call the side with this outline the **top**.
 
-<a id="step-2"/>
+#### Step 2
 
-2. Solder the 6.2k&ohm; resistor (the small one) to the **bottom** of the primary coil's PCB.
+Solder the 6.2k&Omega; resistor (the small one) to the **bottom** of the primary coil's PCB.
 
-<a id="step-3"/>
+<figure>
+	<a href="/images/2026-plasma-candle/step2-first-resistor.jpg" title="Image of completed step 2" class="image-popup">
+		<img src="/images/2026-plasma-candle/step2-first-resistor.jpg" alt="Full-size image of completed step 2" width="50%" height="50%">
+	</a>
+	<figcaption>Completed Step 2</figcaption>
+</figure>
 
-3. Turn the PCB over and snip the legs from the resistor.
+#### Step 3
 
-<a id="step-4"/>
+Turn the PCB over and snip the legs from the resistor.
 
-4. Take the primary coil - the small coil with relatively large wires - and shape it so that it fits reasonably into the holes on top of the primary PCB. It doesn't need to be perfect, as long as it remains a coil without excessive horizontal or vertical gaps.
+<figure>
+	<a href="/images/2026-plasma-candle/step3-cutting-resistor-leads.jpg" title="After cutting the excess resistor leads" class="image-popup">
+		<img src="/images/2026-plasma-candle/step3-cutting-resistor-leads.jpg" alt="Full-size image of resistor leads being cut" width="50%" height="50%">
+	</a>
+	<figcaption>Removing excess component legs after soldering</figcaption>
+</figure>
 
-<a id="step-5"/>
+#### Step 4
 
-5. Remove the primary coil and scrape or sand the enamel off the wire at the solder points. In my opinion it's better to remove too much rather than too little enamel to ensure good solders.
+Take the primary coil - the small coil with relatively large wires - and shape it so that it fits reasonably into the holes on top of the primary PCB. It doesn't need to be perfect, as long as it remains a coil without excessive horizontal or vertical gaps.
 
-<a id="step-6"/>
+<figure>
+	<a href="/images/2026-plasma-candle/step4-primary-aligned.jpg" title="Primary coil adjusted to fit" class="image-popup">
+		<img src="/images/2026-plasma-candle/step4-primary-aligned.jpg" alt="Primary coil adjusted to fit well in PCB holes" width="50%" height="50%">
+	</a>
+	<figcaption>Primary coil adjusted to fit well in its holes on the PCB</figcaption>
+</figure>
 
-6. Solder the primary coil to the PCB. Using a multimeter test resistance at the solder points to confirm a good connection, then cut off any excess coil.
+#### Step 5
 
-<a id="step-7"/>
+Remove the primary coil and scrape or sand the enamel off the wire at the solder points. In my opinion it's better to remove too much rather than too little enamel to ensure good solders.
 
-7. Take the straight pin headers; these are the ones that are mostly metal, with only a short "waist" off-centre. You'll notice ridges between each pin, these are designed to simplify cutting to any length. Using a knife or fingernail make three pieces of four pin headers. See the attached picture if this isn't clear.
+<figure>
+	<a href="/images/2026-plasma-candle/step5-enamel-scraped-off-primary.jpg" title="Enamel removed from ends of primary, ready for soldering" class="image-popup">
+		<img src="/images/2026-plasma-candle/step5-enamel-scraped-off-primary.jpg" alt="Enamel removed from ends of primary, ready for soldering" width="50%" height="50%">
+	</a>
+	<figcaption>Enamel must be removed from the ends of the primary coil so it is conductive and can be soldered.</figcaption>
+</figure>
 
-<a id="step-8"/>
+#### Step 6
 
-8. Attach these pin headers to the remaining spaces on the primary coil PCB, placing from below, with the longest legs on the ground, and soldering from the top. I often place pieces of blu-tack over the top of the pins that aren't being soldered to prevent them falling out and to balance the PCB.
+Solder the primary coil to the PCB. Using a multimeter test resistance at the solder points to confirm a good connection, then cut off any excess coil.
+
+<figure>
+	<a href="/images/2026-plasma-candle/step6-soldering-primary.jpg" title="Soldering the primary coil to its PCB" class="image-popup">
+		<img src="/images/2026-plasma-candle/step6-soldering-primary.jpg" alt="Soldering the primary coil to its PCB" width="50%" height="50%">
+	</a>
+	<figcaption>Soldering the primary coil to its PCB, using the solder contacts on the bottom of the PCB.</figcaption>
+</figure>
+
+#### Step 7
+
+Take the straight pin headers; these are the ones that are mostly metal, with only a short "waist" off-centre. You'll notice ridges between each pin, these are designed to simplify cutting to any length. Using a knife or fingernail make three pieces of four pin headers. See the attached picture if this isn't clear.
+
+<figure>
+	<a href="/images/2026-plasma-candle/step7-straight-headers.jpg" title="Three sets of four straight header pins" class="image-popup">
+		<img src="/images/2026-plasma-candle/step7-straight-headers.jpg" alt="Three sets of four straight header pins" width="50%" height="50%">
+	</a>
+	<figcaption>Create three pin headers, each with space for four pins.</figcaption>
+</figure>
+
+#### Step 8
+
+Attach these pin headers to the remaining spaces on the primary coil PCB, placing from below, with the longest legs on the ground, and soldering from the top. I often place pieces of blu-tack over the top of the pins that aren't being soldered to prevent them falling out and to balance the PCB.
 
 <font size="+1"><center>Our Primary PCB is now complete!</center></font>
 
