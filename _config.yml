@@ -13,15 +13,19 @@ markdown:    kramdown
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-data
+  - kramdown-parser-gfm
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
+  input: GFM
+  hard_wrap: true
 
 
 # Site owner

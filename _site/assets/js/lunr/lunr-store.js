@@ -100,4 +100,10 @@ var store = [{
         "tags": ["Climbing","Abseiling"],
         "url": "/posts/load-testing-the-euro-death-knot/",
         "teaser": null
+      },{
+        "title": "High Frequency Solid State Tesla Coil (HFSSSC) aka \"Plasma candle\" - Build from kit",
+        "excerpt":"Introduction Have you ever excitedly, perhaps a little inebriated, ordered a gadget off AliExpress, Shein, Temu, Amazon, etc.? One morning I woke up having ordered a pair of five watt LASER diodes. The legal limit for LASERs in Australia is one milliwatt! Thankfully I’d realised early enough and been able...","categories": ["posts"],
+        "tags": ["electronics","high voltage","HW","Tesla coil","Plasma candle","HFSSTC","high frequency Tesla Coil"],
+        "url": "/posts/plasma-candle/",
+        "teaser": null
       }]
