@@ -73,7 +73,6 @@ Don't bother doing a parts count - they've supplied more than you need - but you
 
 {% include gallery id="gallery-kit" caption="Kit contents" layout="half" %}
 
-
 #### Step 1
 
 Take the Primary coil PCB - this is the PCB with the round outline of the primary coil on it. We'll call the side with this outline the **top**.
@@ -150,109 +149,116 @@ Attach these pin headers to the remaining spaces on the primary coil PCB, placin
 
 <font size="+1"><center>Our Primary PCB is now complete!</center></font>
 
-<a id="step-9"/>
+<figure>
+	<a href="/images/2026-plasma-candle/step8-primary-complete.jpg" title="Completed Primary Coil PCB" class="image-popup">
+		<img src="/images/2026-plasma-candle/step8-primary-complete.jpg" alt="Completed Primary Coil PCB" width="50%" height="50%">
+	</a>
+	<figcaption>Completed Primary Coil PCB</figcaption>
+</figure>
 
-9. The driver PCB has a few more components, I'd recommend starting with the power supply and power button. Add both to the PCB and solder. Test continuity using a multimeter - it's easy to give too much solder to the switch and too little to the power socket.
+#### Step 9
 
-<a id="step-10"/>
+The driver PCB has a few more components, I'd recommend starting with the power supply and power button. Add both to the PCB and solder. Test continuity using a multimeter - it's easy to give too much solder to the switch and too little to the power socket.
 
-10. Gather the socket pin headers. These are the ones that are mostly black with a small length of metal sticking out to solder. We'll need three sets of headers, each having four holes - the pins we soldered to the primary coil PCB will attach to the top of the driver PCB using these sockets.
+#### Step 10
 
-<a id="step-11"/>
+Gather the socket pin headers. These are the ones that are mostly black with a small length of metal sticking out to solder. We'll need three sets of headers, each having four holes - the pins we soldered to the primary coil PCB will attach to the top of the driver PCB using these sockets.
 
-11. Insert the pins from below the driver PCB, so that a small length of metal appears on the top of the PCB for soldering. I find it easiest to insert all three pins and place a little blu-tack over the pins not currently being soldered to prevent them falling out and keep everything stable.
+#### Step 11
 
-<a id="step-12"/>
+Insert the pins from below the driver PCB, so that a small length of metal appears on the top of the PCB for soldering. I find it easiest to insert all three pins and place a little blu-tack over the pins not currently being soldered to prevent them falling out and keep everything stable.
 
-12. Next up the fan. Around the corner from from the power socket is a line of five holes - the outer two marked "*200*" and the inner three labelled "*+  -  +*".
+#### Step 12
 
-	Attach the red fan line to either positive (+) hole and the black line to the negative (-) hole. Be **very** conservative with the amount of solder you use, it's easy to bridge solder pads on these small ones.
+Next up the fan. Around the corner from from the power socket is a line of five holes - the outer two marked "*200*" and the inner three labelled "*+  -  +*".
 
-<a id="step-13"/>
+Attach the red fan line to either positive (+) hole and the black line to the negative (-) hole. Be **very** conservative with the amount of solder you use, it's easy to bridge solder pads on these small ones.
 
-13. Attach the 200&ohm; 3w resistor (the big one) to the points marked on the PCB - this resistor covers the fan connections so it's important to complete step 12 first. Solder the resistor and trim the excess leads.
+#### Step 13
 
-<a id="step-14"/>
+Attach the 200&Omega; 3w resistor (the big one) to the points marked on the PCB - this resistor covers the fan connections so it's important to complete step 12 first. Solder the resistor and trim the excess leads.
 
-14. Take the provided 90&deg; pin headers and break off a connected pair (i.e. two pin headers in one piece). Find the last pair of holes on the PCB - it will be the side opposite the power supply and switch, near the left side when looking at the PCB, and solder them in place here, ensuring that the long legs are facing out; they will come through a hole in the acrylic wall.
+#### Step 14
 
-<a id="step-15"/>
+Take the provided 90&deg; pin headers and break off a connected pair (i.e. two pin headers in one piece). Find the last pair of holes on the PCB - it will be the side opposite the power supply and switch, near the left side when looking at the PCB, and solder them in place here, ensuring that the long legs are facing out; they will come through a hole in the acrylic wall.
 
-15. The MOSFET attaches to the three remaining holes in the central area of the PCB, although its attachment in this kit takes a little thinking. The silver side (back) of the MOSFET needs to be in contact with the heat sink. This means inserting it from the bottom of the PCB and having it flipped so that, when bent over, its silver/back face will push against the heat sink.
+#### Step 15
 
-	Once you're confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.
+The MOSFET attaches to the three remaining holes in the central area of the PCB, although its attachment in this kit takes a little thinking. The silver side (back) of the MOSFET needs to be in contact with the heat sink. This means inserting it from the bottom of the PCB and having it flipped so that, when bent over, its silver/back face will push against the heat sink.
+
+Once you're confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.
 
 <center>Nearly there - now we just need to put it all together!</center>
 
-<a id="step-16"/>
+#### Step 16
 
-16. Carefully remove all covers on both sides of the acrylic
+Carefully remove all covers on both sides of the acrylic
 
-<a id="step-17"/>
+#### Step 17
 
-17. Take the bottom piece of acrylic - square with concentric circles - along with four large white spacers and four of the smallest screws. Be careful to get the smallest screws, not just the small ones.
+Take the bottom piece of acrylic - square with concentric circles - along with four large white spacers and four of the smallest screws. Be careful to get the smallest screws, not just the small ones.
 
-	Attach the spacers and screws to the bottom pieces and tighten to finger-tight.
+Attach the spacers and screws to the bottom pieces and tighten to finger-tight.
 
-<a id="step-18"/>
+#### Step 18
 
-18. Find the acrylic wall piece that has both a circle and square hole near the centre; attach this to the bottom piece so that the notches near the mid-height of the wall are **below** the circle and square holes.
+Find the acrylic wall piece that has both a circle and square hole near the centre; attach this to the bottom piece so that the notches near the mid-height of the wall are **below** the circle and square holes.
 
-	To attach the side to the bottom, take one small bolt and nut. Push the nut halfway through the wider hole, slowly rotating the nut until you find the correct alignment. Insert the bolt to capture the nut. Twist anticlockwise a few times to ensure the threads are aligned then tighten finger-tight.
+To attach the side to the bottom, take one small bolt and nut. Push the nut halfway through the wider hole, slowly rotating the nut until you find the correct alignment. Insert the bolt to capture the nut. Twist anticlockwise a few times to ensure the threads are aligned then tighten finger-tight.
 
-<a id="step-19"/>
+#### Step 19
 
-19. Open the thermal paste and apply it liberally to the silver side of the MSOFET. From here on be careful not to rub in on *too many* things!
+Open the thermal paste and apply it liberally to the silver side of the MSOFET. From here on be careful not to rub in on *too many* things!
 
-<a id="step-20"/>
+#### Step 20
 
-20. Place the fan inside the case, on top of the spacers. **It is important** that the screw plugs are facing down, and that the fan is rotated so that, when looking at the face containing the circle and square, the fan's wires come out **the right side** of the case. Next, place the heat sink on top of the fan, fins facing the fan. Take four small white plastic spacers and place them in the corners, lined up with the heat sink's screw holes. Finally, add the driver PCB to the stack. This should be rotated so that the large resistor is directly above the fan wires, and the button and power socket fit through their holes.
+Place the fan inside the case, on top of the spacers. **It is important** that the screw plugs are facing down, and that the fan is rotated so that, when looking at the face containing the circle and square, the fan's wires come out **the right side** of the case. Next, place the heat sink on top of the fan, fins facing the fan. Take four small white plastic spacers and place them in the corners, lined up with the heat sink's screw holes. Finally, add the driver PCB to the stack. This should be rotated so that the large resistor is directly above the fan wires, and the button and power socket fit through their holes.
 
-	Take four of the longest screws and insert one in each corner. Take care of the position of the MOSFET - you want its entire body making contact with the heat sink - tighten the screws firmly (but not too firmly).
+Take four of the longest screws and insert one in each corner. Take care of the position of the MOSFET - you want its entire body making contact with the heat sink - tighten the screws firmly (but not too firmly).
 
-<a id="step-21"/>
+#### Step 21
 
-21. Attach the primary coil PCB to the driver PCB by lining up the pins and sockets and inserting them firmly and completely.
+Attach the primary coil PCB to the driver PCB by lining up the pins and sockets and inserting them firmly and completely.
 
 <center><font size="+1">If you're not making the case, you're done! - plug the wire coming from the secondary into one of the 90&deg; pins and fire it up. :)</font></center>
 
-<a id="step-22"/>
+#### Step 22
 
-22. Assemble the remaining walls and secure them to both the bottom piece and their adjoining walls using nuts and bolts. The side opposite the first installed **must** use the side that has a rectangular hole around halfway along its length, and be flipped so that this hole is left of centre.
+Assemble the remaining walls and secure them to both the bottom piece and their adjoining walls using nuts and bolts. The side opposite the first installed **must** use the side that has a rectangular hole around halfway along its length, and be flipped so that this hole is left of centre.
 
-<a id="step-23"/>
+#### Step 23
 
-23. Take the remaining square piece of acrylic and attach it to the top (don't add nuts and bolts yet!). The hole at 45&deg; should be approximately inline with the rectangle containing the two 90&deg; pins.
+Take the remaining square piece of acrylic and attach it to the top (don't add nuts and bolts yet!). The hole at 45&deg; should be approximately inline with the rectangle containing the two 90&deg; pins.
 
-	Take the circular piece of acrylic with the smallest centre hole and align the five holes with those on the top square. 
+Take the circular piece of acrylic with the smallest centre hole and align the five holes with those on the top square. 
 	
-	Take the final acrylic circle and place it over the secondary. Place it on top of the stack and again align the five holes.
+Take the final acrylic circle and place it over the secondary. Place it on top of the stack and again align the five holes.
 
-<a id="step-24"/>
+#### Step 24
 
-24. The wire at the end of the secondary has a black plug attached to it. Next to the exposed wire on one side of it is a small lever; use a fine knife or point to lever this up and remove the wire.
+The wire at the end of the secondary has a black plug attached to it. Next to the exposed wire on one side of it is a small lever; use a fine knife or point to lever this up and remove the wire.
 
-	Poke the wire up through the notch, then down through the three holes at 45&deg;. Keep poking until the wire comes out the tall rectangular hole above the hole containing the 90&deg; pins.
+Poke the wire up through the notch, then down through the three holes at 45&deg;. Keep poking until the wire comes out the tall rectangular hole above the hole containing the 90&deg; pins.
 
-	Re-attach the black plug - if you used force detaching it you may need to push the lever back down so it catches the wire.
+Re-attach the black plug - if you used force detaching it you may need to push the lever back down so it catches the wire.
 	
-	There's a gap between the two circular acrylic pieces. I don't know if it's meant to be there, but it is. :)
+There's a gap between the two circular acrylic pieces. I don't know if it's meant to be there, but it is. :)
 
-<a id="step-25"/>
+#### Step 25
 
-25. Take four long brass bolts and slide them through the two circular pieces and top square, then remove the entire top section - three pieces of acrylic and secondary coil - and add nuts to the underside of each bolt, initially adding them loosely and then tightening only finger-tight.
+Take four long brass bolts and slide them through the two circular pieces and top square, then remove the entire top section - three pieces of acrylic and secondary coil - and add nuts to the underside of each bolt, initially adding them loosely and then tightening only finger-tight.
 
-	**Be carefull** - because there is a gap between the circular pieces they can be cracked by over-tightening.
+**Be carefull** - because there is a gap between the circular pieces they can be cracked by over-tightening.
 	
-<a id="step-26"/>
+#### Step 26
 
-26. Re-attach the top square to the case; secure it is place with nuts and bolts.
+Re-attach the top square to the case; secure it is place with nuts and bolts.
 
-<a id="step-27"/>
+#### Step 27
 
-27. Finally, attach the wire from the secondary to one of the 90&deg; pins. You may need to push the pins down from above if there isn't enough clearance.
+Finally, attach the wire from the secondary to one of the 90&deg; pins. You may need to push the pins down from above if there isn't enough clearance.
 
-	Tape down any loose copper wire at the end of the secondary winding to prevent it shorting to the winding.
+Tape down any loose copper wire at the end of the secondary winding to prevent it shorting to the winding.
 
 Plug it in and power it on! When warm it sometimes self-ignites, but you normally need to start it by touching the tip with something conductive - such as your finger.
 
