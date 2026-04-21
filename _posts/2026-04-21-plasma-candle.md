@@ -24,6 +24,16 @@ gallery-kit:
       alt: "Contents of the kit - rear view"
       title: "Kit Contents - Rear View"
 
+gallery-wiring-fan:
+    - url: /images/2026-plasma-candle/step12a-fan-wiring-from-below.jpg
+      image_path: /images/2026-plasma-candle/step12a-fan-wiring-from-below.jpg
+      alt: "The fan is most easily routed from below and soldered at the top"
+      title: "Fan connection to the PCB"
+    - url: /images/2026-plasma-candle/step12b-fan-wiring-below-resistor.jpg
+      image_path: /images/2026-plasma-candle/step12b-fan-wiring-below-resistor.jpg
+      alt: "The fan must be wired below the 200&Omega; resistor"
+      title: "The fan must be connected before the 200&Omega; resistor"
+
 ---
 
 ## Introduction
@@ -36,7 +46,7 @@ So I purchased the remainder of the kit - the kit itself - and eagerly awaited i
 
 And so it went. I found it relatively easy but not entirely clear. I think of myself as a pretty clever cookie, so if I struggled through it I thought others might like a set of instructions on completing the commonly-found *"HFSSTC Plasma Candle"* from Chinese markets such as AliExpress.
 
-If you're not using the acrylic case it is much faster to build - it should be obvious which instructions you need to follow and which you don't. These instructions focus on building the acrylic frame and Tesla coil together.
+If you're not using the acrylic case it is much faster to build - it should be obvious which instructions you need to follow and which you don't. These instructions focus on assembling the acrylic frame and Tesla coil together.
 
 ## Instructions
 
@@ -60,8 +70,8 @@ Don't bother doing a parts count - they've supplied more than you need - but you
 * Two sets of four spacers, one set larger than the other
 * Primary coil
 * Secondary coil, with attached cable terminated with a black socket
-* 200$\Omega$; 3 watt resistor - That's the big one
-* 6.2k$\Omega$; 350mW resistor - The little one
+* 200&Omega; 3 watt resistor - That's the big one
+* 6.2k&Omega; 350mW resistor - The little one
 * MOSFET - The black thing with three legs
 * Power cord adaptor
 * On/Off switch
@@ -74,7 +84,6 @@ Don't bother doing a parts count - they've supplied more than you need - but you
 * Driver PCB - This is the PCB that isn't the Primary coil PCB. It *doesn't* have an outline of the primary coil on it and *does* have a lot of pre-installed surface mount devices. We'll call the **top** the side that has a Zener diode mounted in the air to keep it clear of other components.
 
 {% include gallery id="gallery-kit" caption="Kit contents" layout="half" %}
-
 
 ### Step 1 - Find the primary coil's PCB
 
@@ -104,7 +113,7 @@ Turn the PCB over and snip the legs from the resistor.
 
 ### Step 4 - Shape the primary coil
 
-Take the primary coil - the small coil with relatively large wires - and shape it so that it fits reasonably into the holes on top of the primary PCB. It doesn't need to be perfect, as long as it remains a coil without excessive horizontal or vertical gaps.
+Take the primary coil - the small coil made from relatively large wire - and shape it so that it fits reasonably into the holes on top of the primary PCB. It doesn't need to be perfect, as long as it remains a coil without excessive horizontal or vertical gaps.
 
 <figure><center>
 	<a href="/images/2026-plasma-candle/step4-primary-aligned.jpg" title="Primary coil adjusted to fit" class="image-popup">
@@ -148,9 +157,9 @@ Take the straight pin headers; these are the ones that are mostly metal, with on
 
 ### Step 8 - Solder the pin headers
 
-Attach these pin headers to the remaining spaces on the primary coil PCB, placing from below, with the longest legs on the ground, and soldering from the top. I often place pieces of blu-tack over the top of the pins that aren't being soldered to prevent them falling out and to balance the PCB.		
+Attach these pin headers to the remaining spaces on the primary coil PCB, placing from below, with the longest legs on the ground, and soldering from the top. I often place pieces of blu-tack over the top of the pins that aren't being soldered to prevent them falling out and to balance the PCB.
 
-<center> ## Our Primary PCB is now complete!</center>
+<p><font size="+1"><center>Our Primary PCB is now complete!</center></font></p>
 
 <figure><center>
 	<a href="/images/2026-plasma-candle/step8-primary-pcb-complete.jpg" title="A completed prittom of the PCB.</figcaption>
@@ -162,7 +171,7 @@ Attach these pin headers to the remaining spaces on the primary coil PCB, placin
 
 ### Step 9 - Power supply & button
 
-1. The driver PCB has a few more components, as well as a lot of surface-mounted components already installed (thank goodness we don't need to solder *those*!) I'd recommend starting with the power supply and power button. Add both to the PCB and solder them from below. Test continuity using a multimeter - it's easy to give too much solder to the switch and too little to the power socket.
+The driver PCB has a few more components, as well as a lot of surface-mounted components already installed (thank goodness we don't need to solder *those*!) I'd recommend starting with the power supply and power button. Add both to the PCB and solder them from below. Test continuity using a multimeter - it's easy to give too much solder to the switch and too little to the power socket.
 
 <figure><center>
 	<a href="/images/2026-plasma-candle/step9-solder-power-and-switch.jpg" title="Attaching the power supply and on/off switch to the driver PCB" class="image-popup">
@@ -171,45 +180,63 @@ Attach these pin headers to the remaining spaces on the primary coil PCB, placin
 	<figcaption>Driver board with the power supply and power switch in the process of being soldered</figcaption>
 </center></figure>
 
-### Step 10 - Find three socket pin headers 
+### Step 10 - Find three socket headers
 
-10. Gather the socket pin headers. These are the ones that are mostly black with a small length of metal sticking out to solder. We'll need three sets of headers, each having four holes - the pins we soldered to the primary coil PCB will attach to the top of the driver PCB using these sockets.
+Gather the socket headers. These are the ones that are mostly black with a small length of metal sticking out to solder. We'll need three sets of headers, each having four holes - the pins we soldered to the primary coil PCB will attach to the top of the driver PCB using these sockets.
 
-<a href="/images/2026-plasma-candle/
+### Step 11 - Solder the socket headers
 
-11. Insert the pins from below the driver PCB, so that a small length of metal appears on the top of the PCB for soldering. I find it easiest to insert all three pins and place a little blu-tack over the pins not currently being soldered to prevent them falling out and keep everything stable.
+Insert the sockets from the top of the driver PCB, so that a small length of metal appears on the bottom of the PCB for soldering. I find it easiest to insert all three sockets and place a little blu-tack over the pins not currently being soldered to prevent them falling out and keep everything stable.
 
-<a id="step-12"/>
+<figure><center>
+	<a href="/images/2026-plasma-candle/step11-soldering-stability-with-blu-tack.jpg" title="Soldering socket headers to the PCB" class="image-popup">
+		<img src="/images/2026-plasma-candle/step11-soldering-stability-with-blu-tack.jpg" alt="Soldering socket headers to the PCB" width="50%" height="50%">
+	</a>
+	<figcaption>Soldering socket headers to the driver PCB from the bottom of the PCB</figcaption>
+</center></figure>
 
-12. Next up the fan. Around the corner from from the power socket is a line of five holes - the outer two marked "*200*" and the inner three labelled "*+  -  +*".
+### Step 12. Wire in the fan
 
-	Attach the red fan line to either positive (+) hole and the black line to the negative (-) hole. Be **very** conservative with the amount of solder you use, it's easy to bridge solder pads on these small ones.
+Next up the fan. Around the corner from from the power socket is a line of five holes - the outer two marked "*200*" and the inner three labelled "*+  -  +*".
 
-<a id="step-13"/>
+Attach the red fan line to either positive (+) hole and the black line to the negative (-) hole. Be **very** conservative with the amount of solder you use, it's easy to bridge solder pads on these small ones.
 
-13. Attach the 200&ohm; 3w resistor (the big one) to the points marked on the PCB - this resistor covers the fan connections so it's important to complete step 12 first. Solder the resistor and trim the excess leads.
+Personally, I find it easiest to insert the fan wires from the bottom of the PCB, soldering them on the top, to give them plenty of clearance from the resistor we'll add in a moment.
 
-<a id="step-14"/>
+{% include gallery id="gallery-wiring-fan" caption="Wire the fan before the resistor!" layout="half" %}
 
-14. Take the provided 90&deg; pin headers and break off a connected pair (i.e. two pin headers in one piece). Find the last pair of holes on the PCB - it will be the side opposite the power supply and switch, near the left side when looking at the PCB, and solder them in place here, ensuring that the long legs are facing out; they will come through a hole in the acrylic wall.
+### Step 13. Attach the big resistor
 
-<a id="step-15"/>
+Attach the 200&Omega; 3w resistor (the big one) to the points marked with **200** on the PCB - this resistor covers the fan connections so it's important to complete step 12 first. Solder the resistor and trim the excess leads.
 
-15. The MOSFET attaches to the three remaining holes in the central area of the PCB, although its attachment in this kit takes a little thinking. The silver side (back) of the MOSFET needs to be in contact with the heat sink. This means inserting it from the bottom of the PCB and having it flipped so that, when bent over, its silver/back face will push against the heat sink.
+<figure><center>
+	<a href="/images/2026-plasma-candle/step13-resistor.HEIC" title="Solder carefully with the fan wiring and resistor so close!" class="image-popup">
+		<img src="/images/2026-plasma-candle/step13-resistor.HEIC" alt="Little clearance between wiring and resistor" width="50%" height="50%">
+	</a>
+	<figcaption>With such small clearances between the fan and resistor, be careful with your soldering</figcaption>
+</figure>
 
-	Once you're confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.
+### Step 14. Attach pin headers for the secondary
+
+Take the provided 90&deg; pin headers and break off a connected pair (i.e. two pin headers in one piece). Find the last pair of holes on the PCB - it will be the side opposite the power supply and switch, near the left side when looking at the PCB, and solder them in place here, ensuring that the long legs are facing out; they will come through a hole in the acrylic wall.
+
+### Step 15. Attach the MOSFET
+
+The MOSFET attaches to the three remaining holes in the central area of the PCB, although its attachment in this kit takes a little thinking. The silver side (back) of the MOSFET needs to be in contact with the heat sink. This means inserting it from the bottom of the PCB and having it flipped so that, when bent over, its silver/back face will push against the heat sink.
+
+Once you're confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.
 
 <center>Nearly there - now we just need to put it all together!</center>
 
-<a id="step-16"/>
+### Step 16. Prepare acrylic
 
-16. Carefully remove all covers on both sides of the acrylic
+Carefully remove all covers on both sides of the acrylic
 
-<a id="step-17"/>
+### Step 17. Prepare the base
 
-17. Take the bottom piece of acrylic - square with concentric circles - along with four large white spacers and four of the smallest screws. Be careful to get the smallest screws, not just the small ones.
+Take the bottom piece of acrylic - square with concentric circles - along with four large white spacers and four of the smallest screws. Be careful to get the smallest screws, not just the small ones.
 
-	Attach the spacers and screws to the bottom pieces and tighten to finger-tight.
+Attach the spacers and screws to the bottom pieces and tighten to finger-tight.
 
 <a id="step-18"/>
 
