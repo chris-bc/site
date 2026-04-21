@@ -34,6 +34,26 @@ gallery-wiring-fan:
       alt: "The fan must be wired below the 200&Omega; resistor"
       title: "The fan must be connected before the 200&Omega; resistor"
 
+gallery-thermal-paste:
+    - url: /images/2026-plasma-candle/step19a-find-the-thermal-paste.jpg
+      image_path: /images/2026-plasma-candle/step19a-find-the-thermal-paste.jpg
+      alt: "Find the thermal paste - If you have problems try TPM7850 :)"
+      title: "Find the thermal paste"
+    - url: /images/2026-plasma-candle/step19b-apply-liberally.jpg
+      image_path: /images/2026-plasma-candle/step19b-apply-liberally.jpg
+      alt: "Apply liberally"
+      title: "Don't be shy applying the thermal paste!"
+
+gallery-driver-stack:
+    - url: /images/2026-plasma-candle/step20a-driver-pcb-stack.jpg
+      image_path: /images/2026-plasma-candle/step20a-driver-pcb-stack.jpg
+      alt: "Begin forming your stack"
+      title: "Begin forming your stack"
+    - url: /images/2026-plasma-candle/step20b-driver-stack-ready.jpg
+      image_path: /images/2026-plasma-candle/step20b-driver-stack-ready.jpg
+      alt: "Just the secondary to go!"
+      title: "Just the secondary to go!"
+
 ---
 
 ## Introduction
@@ -227,7 +247,7 @@ The MOSFET attaches to the three remaining holes in the central area of the PCB,
 Once you're confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.
 
 <figure><center>
-    <a href="/images/2026-plasma-candle/step15-mosfet-on-driver.jeg" title="Be careful to place the MOSFET correctly" class="image-popup">
+    <a href="/images/2026-plasma-candle/step15-mosfet-on-driver.jpg" title="Be careful to place the MOSFET correctly" class="image-popup">
         <img src="/images/2026-plasma-candle/step15-mosfet-on-driver.jpg" alt="Plae the MOSFET carefully" width="50%" height="50%">
     </a>
     <figcaption>Be careful to position the MOSFET correctly or it will not work</figcaption>
@@ -267,63 +287,86 @@ To attach the side to the bottom, take one small bolt and nut. Push the nut half
 
 Open the thermal paste and apply it liberally to the silver side of the MSOFET. From here on be careful not to rub in on *too many* things!
 
-<figure><center>
-    <a href="/images/2026-plasma-candle/step19-find-the-thermal-paste.jpg" title="Don't be shy about the thermal paste :)" class="image-popup">
-        <img src="/images/2026-plasma-candle/step19-find-the-thermal-paste.jpg" alt="Apply thermal paste liberally" height="50%" width="50%">
-    </a>
-</center></figure>
+{% include gallery id="gallery-thermal-paste" caption="Everyone loves thermal paste!" layout="half" %}
 
-### Step 20
+### Step 20 - Begin Assembly
 
-Place the fan inside the case, on top of the spacers. **It is important** that the screw plugs are facing down, and that the fan is rotated so that, when looking at the face containing the circle and square, the fan's wires come out **the right side** of the case. Next, place the heat sink on top of the fan, fins facing the fan. Take four small white plastic spacers and place them in the corners, lined up with the heat sink's screw holes. Finally, add the driver PCB to the stack. This should be rotated so that the large resistor is directly above the fan wires, and the button and power socket fit through their holes.
+Place the fan inside the case, on top of the spacers. **It is important** that the screw plugs are facing down, and that the fan is rotated so that, when looking at the power button, the fan's wires come out **the right side** of the case. Next, place the heat sink on top of the fan, fins facing down. Take four small white plastic spacers and place them in the corners, lined up with the heat sink's screw holes. Finally, add the driver PCB to the stack. This should be rotated so that the large resistor is directly above the fan wires, and the button and power socket fit through their holes.
 
-Take four of the longest screws and insert one in each corner. Take care of the position of the MOSFET - you want its entire body making contact with the heat sink - tighten the screws firmly (but not too firmly).
+Take four of the long silver screws and insert one in each corner. Take care of the position of the MOSFET - you want its entire body making contact with the heat sink - tighten the screws firmly (but not too firmly).
 
-### Step 21
+{% include gallery id="gallery-driver-stack" caption="Nearly Done!" layout="half" %}
+
+### Step 21 - Attach the primary PCB
 
 Attach the primary coil PCB to the driver PCB by lining up the pins and sockets and inserting them firmly and completely.
 
-<center><font size="+1">If you're not making the case, you're done! - plug the wire coming from the secondary into one of the 90&deg; pins and fire it up. :)</font></center>
+<figure><center>
+    <a href="/images/2026-plasma-candle/step21-primary-on-top-of-stack.jpg" title="Attach the Primary to the Driver" class="image-popup">
+        <img src="/images/2026-plasma-candle/step21-primary-on-top-of-stack.jpg" alt="Assembling the core" width="50%" height="50%">
+    </a>
+</center></figure>
 
-### Step 22
+<center><font size="+2">~~~ If you're not making the case, you're done! - plug the wire coming from the secondary into one of the 90&deg; pins and fire it up. :) ~~~</font></center>
+
+### Step 22 - Add Walls
 
 Assemble the remaining walls and secure them to both the bottom piece and their adjoining walls using nuts and bolts. The side opposite the first installed **must** use the side that has a rectangular hole around halfway along its length, and be flipped so that this hole is left of centre.
 
-### Step 23
+### Step 23 - Add the Secondary Coil
 
-Take the remaining square piece of acrylic and attach it to the top (don't add nuts and bolts yet!). The hole at 45&deg; should be approximately inline with the rectangle containing the two 90&deg; pins.
+Take the remaining square piece of acrylic and put it into the top (don't add nuts and bolts yet). The hole at 45&deg; should be approximately inline with the rectangle containing the two 90&deg; pins.
 
-Take the circular piece of acrylic with the smallest centre hole and align the five holes with those on the top square. 
+Take the circular piece of acrylic with the smallest centre hole and align the five holes with those on the top square.
 
-Take the final acrylic circle and place it over the secondary. Place it on top of the stack and again align the five holes.
+Take the final acrylic circle and place it over the secondary coil. Place it on top of the stack and again align the five holes.
 
-### Step 24
+### Step 24 - Thread the Secondary Feedback
 
 The wire at the end of the secondary has a black plug attached to it. Next to the exposed wire on one side of it is a small lever; use a fine knife or point to lever this up and remove the wire.
 
-Poke the wire up through the notch, then down through the three holes at 45&deg;. Keep poking until the wire comes out the tall rectangular hole above the hole containing the 90&deg; pins.
+Poke the wire up through the notch in the top piece of acrylic, then down through the three holes at 45&deg;. Keep poking until the wire comes out the tall rectangular hole above the hole containing the 90&deg; pins.
 
 Re-attach the black plug - if you used force detaching it you may need to push the lever back down so it catches the wire.
 
 There's a gap between the two circular acrylic pieces. I don't know if it's meant to be there, but it is. :)
 
-### Step 25
+<figure><center>
+     <a href="/images/2026-plasma-candle/step24-secondary-threaded.jpg" title="Thread the secondary to the 90&deg; headers" class="image-popup">
+        <img src="/images/2026-plasma-candle/step24-secondary-threaded.jpg" alt="Thread the secondary to the 90&deg; headers" width="50%" height="50%">
+    </a>
+	<figcaption>Thread the secondary to the 90&deg; headers</figcaption>
+</center></figure>
+
+### Step 25 - Secure the top layers
 
 Take four long brass bolts and slide them through the two circular pieces and top square, then remove the entire top section - three pieces of acrylic and secondary coil - and add nuts to the underside of each bolt, initially adding them loosely and then tightening only finger-tight.
 
 **Be carefull** - because there is a gap between the circular pieces they can be cracked by over-tightening.
 
-### Step 26
+### Step 26 - Bolt on the top piece
 
 Re-attach the top square to the case; secure it is place with nuts and bolts.
 
-### Step 27
+<figure><center>
+    <a href="/images/2026-plasma-candle/step26-finished.jpg" title="Assembly Finished!" class="image-popup">
+        <img src="/images/2026-plasma-candle/step26-finished.jpg" alt="Assembly finished!" width="50%" height="50%">
+    </a>
+</center></figure>
+
+### Step 27 = Power it up!
 
 Finally, attach the wire from the secondary to one of the 90&deg; pins. You may need to push the pins down from above if there isn't enough clearance.
 
 Tape down any loose copper wire at the end of the secondary winding to prevent it shorting to the winding.
 
 Plug it in and power it on! When warm it sometimes self-ignites, but you normally need to start it by touching the tip with something conductive - such as your finger.
+
+<figure><center>
+    <a href="/images/2026-plasma-candle/step27-alight.jpg" title="Finished Tesla Coil" class="image-popup">
+        <img src="/images/2026-plasma-candle/step27-alight.jpg" alt="Finished Tesla Coil" width="50%" height="50%">
+    </a>
+</center></figure>
 
 <strong>A word of warning:</strong> The longer you leave it running - particularly if you give the arc a load to ground, the hotter the MOSFET will get. Pay attention to the heat blown out the sides of the heat sink's fins and give it a chance to cool down when it begins to get hot, otherwise there's a good chance the magic smoke will come out of the MOSFET and you'll need to replace it.
 
