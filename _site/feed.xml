@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
 <link rel="alternate" type="text/html" href="http://localhost:4000" />
-<updated>2026-04-21T21:26:16+10:00</updated>
+<updated>2026-04-21T22:55:17+10:00</updated>
 <id>http://localhost:4000/</id>
 <author>
   <name>Chris Bennetts-Cash</name>
@@ -61,6 +61,20 @@
       &lt;li&gt;&lt;a href=&quot;#step-11---solder-the-socket-headers&quot; id=&quot;markdown-toc-step-11---solder-the-socket-headers&quot;&gt;Step 11 - Solder the socket headers&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#step-12-wire-in-the-fan&quot; id=&quot;markdown-toc-step-12-wire-in-the-fan&quot;&gt;Step 12. Wire in the fan&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#step-13-attach-the-big-resistor&quot; id=&quot;markdown-toc-step-13-attach-the-big-resistor&quot;&gt;Step 13. Attach the big resistor&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-14-attach-pin-headers-for-the-secondary&quot; id=&quot;markdown-toc-step-14-attach-pin-headers-for-the-secondary&quot;&gt;Step 14. Attach pin headers for the secondary&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-15-attach-the-mosfet&quot; id=&quot;markdown-toc-step-15-attach-the-mosfet&quot;&gt;Step 15. Attach the MOSFET&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-16-prepare-acrylic&quot; id=&quot;markdown-toc-step-16-prepare-acrylic&quot;&gt;Step 16. Prepare acrylic&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-17-prepare-the-base&quot; id=&quot;markdown-toc-step-17-prepare-the-base&quot;&gt;Step 17. Prepare the base&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-18-attach-the-first-side&quot; id=&quot;markdown-toc-step-18-attach-the-first-side&quot;&gt;Step 18. Attach the first side&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-19---apply-thermal-paste-liberally&quot; id=&quot;markdown-toc-step-19---apply-thermal-paste-liberally&quot;&gt;Step 19 - Apply Thermal Paste Liberally&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-20&quot; id=&quot;markdown-toc-step-20&quot;&gt;Step 20&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-21&quot; id=&quot;markdown-toc-step-21&quot;&gt;Step 21&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-22&quot; id=&quot;markdown-toc-step-22&quot;&gt;Step 22&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-23&quot; id=&quot;markdown-toc-step-23&quot;&gt;Step 23&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-24&quot; id=&quot;markdown-toc-step-24&quot;&gt;Step 24&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-25&quot; id=&quot;markdown-toc-step-25&quot;&gt;Step 25&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-26&quot; id=&quot;markdown-toc-step-26&quot;&gt;Step 26&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-27&quot; id=&quot;markdown-toc-step-27&quot;&gt;Step 27&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -196,7 +210,7 @@
 
 &lt;p&gt;Attach these pin headers to the remaining spaces on the primary coil PCB, placing from below, with the longest legs on the ground, and soldering from the top. I often place pieces of blu-tack over the top of the pins that aren’t being soldered to prevent them falling out and to balance the PCB.&lt;/p&gt;
 
-&lt;p&gt;&lt;font size=&quot;+1&quot;&gt;&lt;center&gt;Our Primary PCB is now complete!&lt;/center&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font size=&quot;+2&quot;&gt;&lt;center&gt;~~~ Our Primary PCB is now complete! ~~~&lt;/center&gt;&lt;/font&gt;&lt;/p&gt;
 
 &lt;figure&gt;&lt;center&gt;
 	&lt;a href=&quot;/images/2026-plasma-candle/step8-primary-pcb-complete.jpg&quot; title=&quot;A completed prittom of the PCB.&amp;lt;/figcaption&amp;gt;
@@ -262,103 +276,127 @@
 
 &lt;h3 id=&quot;step-13-attach-the-big-resistor&quot;&gt;Step 13. Attach the big resistor&lt;/h3&gt;
 
-&lt;p&gt;Attach the 200Ω 3w resistor (the big one) to the points marked with &lt;strong&gt;200&lt;/strong&gt; on the PCB - this resistor covers the fan connections so it’s important to complete step 12 first. Solder the resistor and trim the excess leads.&lt;/p&gt;
+&lt;p&gt;Attach the 200Ω 3w resistor (the big one) to the points marked with &lt;strong&gt;200&lt;/strong&gt; on the PCB - those are the two holes to either side of the three points we looked at for the fan. This resistor covers the fan connections so it’s important to complete step 12 first. Solder the resistor and trim the excess leads.&lt;/p&gt;
 
 &lt;figure&gt;&lt;center&gt;
-	&lt;a href=&quot;/images/2026-plasma-candle/step13-resistor.HEIC&quot; title=&quot;Solder carefully with the fan wiring and resistor so close!&quot; class=&quot;image-popup&quot;&gt;
-		&lt;img src=&quot;/images/2026-plasma-candle/step13-resistor.HEIC&quot; alt=&quot;Little clearance between wiring and resistor&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;
+	&lt;a href=&quot;/images/2026-plasma-candle/step13-resistor.jpg&quot; title=&quot;Solder carefully with the fan wiring and resistor so close!&quot; class=&quot;image-popup&quot;&gt;
+		&lt;img src=&quot;/images/2026-plasma-candle/step13-resistor.jpg&quot; alt=&quot;Little clearance between wiring and resistor&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;
 	&lt;/a&gt;
-	&lt;figcaption&gt;With such small clearances between the fan and resistor, be careful with your soldering&lt;/figcaption&gt;
-&amp;lt;/figure&amp;gt;
+	&lt;figcaption&gt;With such small clearances between the fan wires and resistor, be careful with your soldering&lt;/figcaption&gt;
+&lt;/center&gt;&lt;/figure&gt;
 
-### Step 14. Attach pin headers for the secondary
+&lt;h3 id=&quot;step-14-attach-pin-headers-for-the-secondary&quot;&gt;Step 14. Attach pin headers for the secondary&lt;/h3&gt;
 
-Take the provided 90&amp;deg; pin headers and break off a connected pair (i.e. two pin headers in one piece). Find the last pair of holes on the PCB - it will be the side opposite the power supply and switch, near the left side when looking at the PCB, and solder them in place here, ensuring that the long legs are facing out; they will come through a hole in the acrylic wall.
+&lt;p&gt;Take the provided 90° pin headers and break off a connected pair (i.e. two pin headers in one piece). Find the last pair of holes on the PCB - it will be the side opposite the power supply and switch, near the left side when looking at the PCB, and solder them in place here, ensuring that the long legs are facing out; they will come through a hole in the acrylic wall.&lt;/p&gt;
 
-### Step 15. Attach the MOSFET
+&lt;h3 id=&quot;step-15-attach-the-mosfet&quot;&gt;Step 15. Attach the MOSFET&lt;/h3&gt;
 
-The MOSFET attaches to the three remaining holes in the central area of the PCB, although its attachment in this kit takes a little thinking. The silver side (back) of the MOSFET needs to be in contact with the heat sink. This means inserting it from the bottom of the PCB and having it flipped so that, when bent over, its silver/back face will push against the heat sink.
+&lt;p&gt;The MOSFET attaches to the three remaining holes in the central area of the PCB, although its attachment in this kit takes a little thinking. The silver side (back) of the MOSFET needs to be in contact with the heat sink. This means inserting it from the bottom of the PCB and having it flipped so that, when bent over, its silver/back face will push against the heat sink.&lt;/p&gt;
 
-Once you&apos;re confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.
+&lt;p&gt;Once you’re confident you have the MOSFET correctly aligned solder it in place and trim the leads if necessary.&lt;/p&gt;
 
-&lt;center&gt;Nearly there - now we just need to put it all together!&lt;/center&gt;
+&lt;figure&gt;&lt;center&gt;
+    &lt;a href=&quot;/images/2026-plasma-candle/step15-mosfet-on-driver.jeg&quot; title=&quot;Be careful to place the MOSFET correctly&quot; class=&quot;image-popup&quot;&gt;
+        &lt;img src=&quot;/images/2026-plasma-candle/step15-mosfet-on-driver.jpg&quot; alt=&quot;Plae the MOSFET carefully&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;
+    &lt;/a&gt;
+    &lt;figcaption&gt;Be careful to position the MOSFET correctly or it will not work&lt;/figcaption&gt;
+&lt;/center&gt;&lt;/figure&gt;
 
-### Step 16. Prepare acrylic
+&lt;p&gt;&lt;font size=&quot;+2&quot;&gt;&lt;center&gt;~~~ Nearly there - now we just need to put it all together! ~~~&lt;/center&gt;&lt;/font&gt;&lt;/p&gt;
 
-Carefully remove all covers on both sides of the acrylic
+&lt;h3 id=&quot;step-16-prepare-acrylic&quot;&gt;Step 16. Prepare acrylic&lt;/h3&gt;
 
-### Step 17. Prepare the base
+&lt;p&gt;Carefully remove all covers on both sides of the acrylic&lt;/p&gt;
 
-Take the bottom piece of acrylic - square with concentric circles - along with four large white spacers and four of the smallest screws. Be careful to get the smallest screws, not just the small ones.
+&lt;h3 id=&quot;step-17-prepare-the-base&quot;&gt;Step 17. Prepare the base&lt;/h3&gt;
 
-Attach the spacers and screws to the bottom pieces and tighten to finger-tight.
+&lt;p&gt;Take the bottom piece of acrylic - square with concentric circles - along with four large white spacers and four of the smallest screws. Be careful to get the smallest screws, not just the small ones.&lt;/p&gt;
 
-&lt;a id=&quot;step-18&quot; /&gt;
+&lt;p&gt;Attach the spacers and screws to the bottom pieces and tighten to finger-tight.&lt;/p&gt;
 
-18. Find the acrylic wall piece that has both a circle and square hole near the centre; attach this to the bottom piece so that the notches near the mid-height of the wall are **below** the circle and square holes.
+&lt;figure&gt;&lt;center&gt;
+    &lt;a href=&quot;/images/2026-plasma-candle/step17-spacers-on-bottom.jpg&quot; title=&quot;Attach large spacers with the smallest screws&quot; class=&quot;image-popup&quot;&gt;
+        &lt;img src=&quot;/images/2026-plasma-candle/step17-spacers-on-bottom.jpg&quot; alt=&quot;Attach large spacers with the smalest screws&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;
+    &lt;/a&gt;
+&lt;/center&gt;&lt;/figure&gt;
 
-	To attach the side to the bottom, take one small bolt and nut. Push the nut halfway through the wider hole, slowly rotating the nut until you find the correct alignment. Insert the bolt to capture the nut. Twist anticlockwise a few times to ensure the threads are aligned then tighten finger-tight.
+&lt;h3 id=&quot;step-18-attach-the-first-side&quot;&gt;Step 18. Attach the first side&lt;/h3&gt;
 
-&lt;a id=&quot;step-19&quot; /&gt;
+&lt;p&gt;Find the acrylic wall piece that has both a circle and square hole near the centre; attach this to the bottom piece so that the notches near the mid-height of the wall are &lt;strong&gt;below&lt;/strong&gt; the circle and square holes.&lt;/p&gt;
 
-19. Open the thermal paste and apply it liberally to the silver side of the MSOFET. From here on be careful not to rub in on *too many* things!
+&lt;p&gt;To attach the side to the bottom, take one small bolt and nut. Push the nut halfway through the wider hole, slowly rotating the nut until you find the correct alignment. Insert the bolt to capture the nut. Twist anticlockwise a few times to ensure the threads are aligned then tighten finger-tight.&lt;/p&gt;
 
-&lt;a id=&quot;step-20&quot; /&gt;
+&lt;figure&gt;&lt;center&gt;
+    &lt;a href=&quot;/images/2026-plasma-candle/step18-attach-first-side.jpg&quot; title=&quot;Attach the side of the power plug and socket&quot; class=&quot;image-popup&quot;&gt;
+        &lt;img src=&quot;/images/2026-plasma-candle/step18-attach-first-side.jpg&quot; alt=&quot;Attach the side covering the power plug and socket&quot; width=&quot;50%&quot; height=&quot;50%&quot; /&gt;
+    &lt;/a&gt;
+&lt;/center&gt;&lt;/figure&gt;
 
-20. Place the fan inside the case, on top of the spacers. **It is important** that the screw plugs are facing down, and that the fan is rotated so that, when looking at the face containing the circle and square, the fan&apos;s wires come out **the right side** of the case. Next, place the heat sink on top of the fan, fins facing the fan. Take four small white plastic spacers and place them in the corners, lined up with the heat sink&apos;s screw holes. Finally, add the driver PCB to the stack. This should be rotated so that the large resistor is directly above the fan wires, and the button and power socket fit through their holes.
+&lt;h3 id=&quot;step-19---apply-thermal-paste-liberally&quot;&gt;Step 19 - Apply Thermal Paste Liberally&lt;/h3&gt;
 
-	Take four of the longest screws and insert one in each corner. Take care of the position of the MOSFET - you want its entire body making contact with the heat sink - tighten the screws firmly (but not too firmly).
+&lt;p&gt;Open the thermal paste and apply it liberally to the silver side of the MSOFET. From here on be careful not to rub in on &lt;em&gt;too many&lt;/em&gt; things!&lt;/p&gt;
 
-&lt;a id=&quot;step-21&quot; /&gt;
+&lt;figure&gt;&lt;center&gt;
+    &lt;a href=&quot;/images/2026-plasma-candle/step19-find-the-thermal-paste.jpg&quot; title=&quot;Don&apos;t be shy about the thermal paste :)&quot; class=&quot;image-popup&quot;&gt;
+        &lt;img src=&quot;/images/2026-plasma-candle/step19-find-the-thermal-paste.jpg&quot; alt=&quot;Apply thermal paste liberally&quot; height=&quot;50%&quot; width=&quot;50%&quot; /&gt;
+    &lt;/a&gt;
+&lt;/center&gt;&lt;/figure&gt;
 
-21. Attach the primary coil PCB to the driver PCB by lining up the pins and sockets and inserting them firmly and completely.
+&lt;h3 id=&quot;step-20&quot;&gt;Step 20&lt;/h3&gt;
+
+&lt;p&gt;Place the fan inside the case, on top of the spacers. &lt;strong&gt;It is important&lt;/strong&gt; that the screw plugs are facing down, and that the fan is rotated so that, when looking at the face containing the circle and square, the fan’s wires come out &lt;strong&gt;the right side&lt;/strong&gt; of the case. Next, place the heat sink on top of the fan, fins facing the fan. Take four small white plastic spacers and place them in the corners, lined up with the heat sink’s screw holes. Finally, add the driver PCB to the stack. This should be rotated so that the large resistor is directly above the fan wires, and the button and power socket fit through their holes.&lt;/p&gt;
+
+&lt;p&gt;Take four of the longest screws and insert one in each corner. Take care of the position of the MOSFET - you want its entire body making contact with the heat sink - tighten the screws firmly (but not too firmly).&lt;/p&gt;
+
+&lt;h3 id=&quot;step-21&quot;&gt;Step 21&lt;/h3&gt;
+
+&lt;p&gt;Attach the primary coil PCB to the driver PCB by lining up the pins and sockets and inserting them firmly and completely.&lt;/p&gt;
 
 &lt;center&gt;&lt;font size=&quot;+1&quot;&gt;If you&apos;re not making the case, you&apos;re done! - plug the wire coming from the secondary into one of the 90&amp;deg; pins and fire it up. :)&lt;/font&gt;&lt;/center&gt;
 
-&lt;a id=&quot;step-22&quot; /&gt;
+&lt;h3 id=&quot;step-22&quot;&gt;Step 22&lt;/h3&gt;
 
-22. Assemble the remaining walls and secure them to both the bottom piece and their adjoining walls using nuts and bolts. The side opposite the first installed **must** use the side that has a rectangular hole around halfway along its length, and be flipped so that this hole is left of centre.
+&lt;p&gt;Assemble the remaining walls and secure them to both the bottom piece and their adjoining walls using nuts and bolts. The side opposite the first installed &lt;strong&gt;must&lt;/strong&gt; use the side that has a rectangular hole around halfway along its length, and be flipped so that this hole is left of centre.&lt;/p&gt;
 
-&lt;a id=&quot;step-23&quot; /&gt;
+&lt;h3 id=&quot;step-23&quot;&gt;Step 23&lt;/h3&gt;
 
-23. Take the remaining square piece of acrylic and attach it to the top (don&apos;t add nuts and bolts yet!). The hole at 45&amp;deg; should be approximately inline with the rectangle containing the two 90&amp;deg; pins.
+&lt;p&gt;Take the remaining square piece of acrylic and attach it to the top (don’t add nuts and bolts yet!). The hole at 45° should be approximately inline with the rectangle containing the two 90° pins.&lt;/p&gt;
 
-	Take the circular piece of acrylic with the smallest centre hole and align the five holes with those on the top square. 
-	
-	Take the final acrylic circle and place it over the secondary. Place it on top of the stack and again align the five holes.
+&lt;p&gt;Take the circular piece of acrylic with the smallest centre hole and align the five holes with those on the top square.&lt;/p&gt;
 
-&lt;a id=&quot;step-24&quot; /&gt;
+&lt;p&gt;Take the final acrylic circle and place it over the secondary. Place it on top of the stack and again align the five holes.&lt;/p&gt;
 
-24. The wire at the end of the secondary has a black plug attached to it. Next to the exposed wire on one side of it is a small lever; use a fine knife or point to lever this up and remove the wire.
+&lt;h3 id=&quot;step-24&quot;&gt;Step 24&lt;/h3&gt;
 
-	Poke the wire up through the notch, then down through the three holes at 45&amp;deg;. Keep poking until the wire comes out the tall rectangular hole above the hole containing the 90&amp;deg; pins.
+&lt;p&gt;The wire at the end of the secondary has a black plug attached to it. Next to the exposed wire on one side of it is a small lever; use a fine knife or point to lever this up and remove the wire.&lt;/p&gt;
 
-	Re-attach the black plug - if you used force detaching it you may need to push the lever back down so it catches the wire.
-	
-	There&apos;s a gap between the two circular acrylic pieces. I don&apos;t know if it&apos;s meant to be there, but it is. :)
+&lt;p&gt;Poke the wire up through the notch, then down through the three holes at 45°. Keep poking until the wire comes out the tall rectangular hole above the hole containing the 90° pins.&lt;/p&gt;
 
-&lt;a id=&quot;step-25&quot; /&gt;
+&lt;p&gt;Re-attach the black plug - if you used force detaching it you may need to push the lever back down so it catches the wire.&lt;/p&gt;
 
-25. Take four long brass bolts and slide them through the two circular pieces and top square, then remove the entire top section - three pieces of acrylic and secondary coil - and add nuts to the underside of each bolt, initially adding them loosely and then tightening only finger-tight.
+&lt;p&gt;There’s a gap between the two circular acrylic pieces. I don’t know if it’s meant to be there, but it is. :)&lt;/p&gt;
 
-	**Be carefull** - because there is a gap between the circular pieces they can be cracked by over-tightening.
-	
-&lt;a id=&quot;step-26&quot; /&gt;
+&lt;h3 id=&quot;step-25&quot;&gt;Step 25&lt;/h3&gt;
 
-26. Re-attach the top square to the case; secure it is place with nuts and bolts.
+&lt;p&gt;Take four long brass bolts and slide them through the two circular pieces and top square, then remove the entire top section - three pieces of acrylic and secondary coil - and add nuts to the underside of each bolt, initially adding them loosely and then tightening only finger-tight.&lt;/p&gt;
 
-&lt;a id=&quot;step-27&quot; /&gt;
+&lt;p&gt;&lt;strong&gt;Be carefull&lt;/strong&gt; - because there is a gap between the circular pieces they can be cracked by over-tightening.&lt;/p&gt;
 
-27. Finally, attach the wire from the secondary to one of the 90&amp;deg; pins. You may need to push the pins down from above if there isn&apos;t enough clearance.
+&lt;h3 id=&quot;step-26&quot;&gt;Step 26&lt;/h3&gt;
 
-	Tape down any loose copper wire at the end of the secondary winding to prevent it shorting to the winding.
+&lt;p&gt;Re-attach the top square to the case; secure it is place with nuts and bolts.&lt;/p&gt;
 
-Plug it in and power it on! When warm it sometimes self-ignites, but you normally need to start it by touching the tip with something conductive - such as your finger.
+&lt;h3 id=&quot;step-27&quot;&gt;Step 27&lt;/h3&gt;
 
-&lt;strong&gt;A word of warning:&lt;/strong&gt; The longer you leave it running - particularly if you give the arc a load to ground, the hotter the MOSFET will get. Pay attention to the heat blown out the sides of the heat sink&apos;s fins and give it a chance to cool down when it begins to get hot, otherwise there&apos;s a good chance the magic smoke will come out of the MOSFET and you&apos;ll need to replace it.
+&lt;p&gt;Finally, attach the wire from the secondary to one of the 90° pins. You may need to push the pins down from above if there isn’t enough clearance.&lt;/p&gt;
 
-[Back to top](#introduction)
-&lt;/center&gt;&lt;/figure&gt;
+&lt;p&gt;Tape down any loose copper wire at the end of the secondary winding to prevent it shorting to the winding.&lt;/p&gt;
+
+&lt;p&gt;Plug it in and power it on! When warm it sometimes self-ignites, but you normally need to start it by touching the tip with something conductive - such as your finger.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A word of warning:&lt;/strong&gt; The longer you leave it running - particularly if you give the arc a load to ground, the hotter the MOSFET will get. Pay attention to the heat blown out the sides of the heat sink’s fins and give it a chance to cool down when it begins to get hot, otherwise there’s a good chance the magic smoke will come out of the MOSFET and you’ll need to replace it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#introduction&quot;&gt;Back to top&lt;/a&gt;&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;http://localhost:4000/posts/plasma-candle/&quot;&gt;High Frequency Solid State Tesla Coil (HFSSTC) aka &quot;Plasma candle&quot; - Build from kit&lt;/a&gt; was originally published by Chris Bennetts-Cash at &lt;a href=&quot;http://localhost:4000&quot;&gt;BENNETTSCASH&lt;/a&gt; on April 19, 2026.&lt;/p&gt;
   </content>
